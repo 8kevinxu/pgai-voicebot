@@ -9,52 +9,37 @@
     {
       "t": 0.0,
       "role": "agent",
-      "text": "This call may be recorded for quality and training purposes."
+      "text": "This call may be recorded for quality and training purposes Para Espa\u00f1ol oprima el 2 Thanks for calling Pivot Point Orthopedics part of Pretty Good AI Am I speaking with Maria"
     },
     {
-      "t": 0.0,
+      "t": 12.78,
       "role": "patient",
-      "text": "Oh, no, I'm not Maria."
+      "text": "Oh no I'm not Maria I'm Lyndon Nguyen I'm calling to ask about your clinic's hours Could you help me with that"
     },
     {
-      "t": 3.32,
+      "t": 21.52,
       "role": "agent",
-      "text": "Para Espa\u00f1ol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Maria?"
+      "text": "Of course Lyndon Pivot Point Orthopedics is open Monday through Friday Our hours are 9 a m to 4 p m on Monday Tuesday and Thursday 12 p m to 7 p m on Wednesday and 9 a m to 12 p m on Friday Let me know if you need anything else about the clinic"
     },
     {
-      "t": 14.72,
+      "t": 40.06,
       "role": "patient",
-      "text": "I'm Lyndon Nguyen. I'm calling to ask about your clinic's hours. Could you help me with that?"
+      "text": "Okay thanks And could you tell me if you're open on weekends at all Like on Saturday or Sunday"
     },
     {
-      "t": 21.8,
+      "t": 48.24,
       "role": "agent",
-      "text": "Of course, Lyndon. Pivot Point Orthopedics is open Monday through Friday."
+      "text": "We're closed on Saturdays and Sundays The clinic is only open Monday through Friday If you need to schedule an appointment or have other questions I'm here to help"
     },
     {
-      "t": 25.36,
+      "t": 50.46,
       "role": "patient",
-      "text": "Okay, thanks."
+      "text": "Okay"
     },
     {
-      "t": 26.4,
-      "role": "agent",
-      "text": "Our hours are 9 a.m. to 4 p.m. on Monday, Tuesday, and Thursday, 12 p.m. to 7 p.m. on Wednesday, and 9 a.m. to 12 p.m. on Friday. Let me know if you need anything else about the clinic."
-    },
-    {
-      "t": 41.66,
+      "t": 58.24,
       "role": "patient",
-      "text": "And could you tell me if you're open on weekends at all, like on Saturday or Sunday?"
-    },
-    {
-      "t": 48.48,
-      "role": "agent",
-      "text": "We're closed on Saturdays and Sundays. The clinic is only open Monday through Friday. If you need to schedule an appointment or have other questions, I'm here to help."
-    },
-    {
-      "t": 58.5,
-      "role": "patient",
-      "text": "Got it. That clears it up. Thanks for your help. I'm all set now."
+      "text": "Got it That clears it up Thanks for your help I'm all set now Goodbye"
     }
   ]
 }

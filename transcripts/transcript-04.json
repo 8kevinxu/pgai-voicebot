@@ -9,97 +9,82 @@
     {
       "t": 0.0,
       "role": "agent",
-      "text": "This call may be recorded for quality and training purposes."
+      "text": "This call may be recorded for quality and training purposes Para espanol oprima el 2"
     },
     {
-      "t": 0.0,
+      "t": 7.0,
       "role": "patient",
-      "text": "Hi."
+      "text": "Hi"
     },
     {
-      "t": 3.32,
+      "t": 7.28,
       "role": "agent",
-      "text": "Para espanol, oprima el 2. Thanks for calling Pivot Point Orthopedics,"
+      "text": "Thanks for calling Pivot Point Orthopedics part of Pretty Good AI Am I speaking with Maria"
     },
     {
-      "t": 8.72,
+      "t": 13.84,
       "role": "patient",
-      "text": "Oh, no, this is James Carter calling."
+      "text": "Oh no This is James Carter calling I'm an existing patient"
     },
     {
-      "t": 9.72,
+      "t": 20.78,
       "role": "agent",
-      "text": "part of Pretty Good AI. Am I speaking with Maria?"
+      "text": "Please provide your date of birth"
     },
     {
-      "t": 16.46,
+      "t": 23.82,
       "role": "patient",
-      "text": "I'm an existing patient."
+      "text": "Sure It's April 3rd 1980"
     },
     {
-      "t": 21.12,
-      "role": "agent",
-      "text": "Please provide your date of birth."
-    },
-    {
-      "t": 22.24,
+      "t": 29.22,
       "role": "patient",
-      "text": "Sure. It's April 3rd, 1980."
+      "text": "Hi I'm the Director of the American Heart Association"
     },
     {
-      "t": 30.52,
+      "t": 30.14,
       "role": "agent",
-      "text": "Just to confirm, I have your name as James Carter and your date of birth as April 3, 1980."
+      "text": "Just to confirm I have your name as James Carter and your date of birth as April 3 1980 Is that correct If so could you please spell your first and last name for me"
     },
     {
-      "t": 34.06,
+      "t": 42.88,
       "role": "patient",
-      "text": "Yeah, that's correct."
+      "text": "Yeah that's correct It's James J A M E S and Carter C A R T E R"
     },
     {
-      "t": 36.8,
+      "t": 54.66,
       "role": "agent",
-      "text": "Is that correct? If so, could you please spell your first and last name for me?"
+      "text": "Would you like to use your phone number to look up your record If so please provide the number you have on file with us If you're not sure I can confirm your name and date of birth again Which would you prefer"
     },
     {
-      "t": 44.94,
+      "t": 66.96,
       "role": "patient",
-      "text": "It's James, J-A-M-E-S, and Carter, C-A-R-T-E-R."
+      "text": "Sure I can give you the phone number It should be 555 302 7719"
     },
     {
-      "t": 55.0,
+      "t": 76.32,
       "role": "agent",
-      "text": "Would you like to use your phone number to look up your record? If so, please provide the number you have on file with us. If you're not sure, I can confirm your name and date"
+      "text": "I have your phone number as 555 302 7719 and your date of birth as April 3 1980 Is that correct"
     },
     {
-      "t": 63.1,
+      "t": 87.7,
       "role": "patient",
-      "text": "Sure, I can give you the phone number."
+      "text": "Yes that's correct"
     },
     {
-      "t": 63.24,
+      "t": 94.64,
       "role": "agent",
-      "text": "of birth again. Which would you prefer?"
+      "text": "I can't proceed further right now but I can make sure our clinic support team follows up with you Please hold while I connect you to our patient support team Connecting you to a representative Please wait Hello you've reached the Pretty Good AI test line Goodbye"
     },
     {
-      "t": 69.3,
+      "t": 107.9,
       "role": "patient",
-      "text": "It should be 555-302-7719. Yes, that's correct."
+      "text": "Okay"
     },
     {
-      "t": 76.68,
-      "role": "agent",
-      "text": "I have your phone number as 555-302-7719 and your date of birth as April 3, 1980. Is that correct? Thank you. I can't proceed further right now, but I can make sure our clinic support team follows up with you."
-    },
-    {
-      "t": 99.3,
+      "t": 113.06,
       "role": "patient",
-      "text": "Oh, all right then, thank you, goodbye."
-    },
-    {
-      "t": 99.96,
-      "role": "agent",
-      "text": "Please hold while I connect you to our patient support team. Connecting you to a representative. Please wait. Hello, you've reached the Pretty Good AI test line. Goodbye."
+      "text": "Oh All right then Thank you Goodbye"
     }
   ]
 }

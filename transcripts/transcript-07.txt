@@ -1,17 +1,18 @@
 Call 07 — Scenario 7: Insurance accepted question
 Goal: Confirm whether the clinic accepts Blue Cross Blue Shield.
 ======================================================================
-[0:00] AGENT (PGAI): This call may be recorded for quality and training purposes.
-[0:00] PATIENT (bot): Oh, um, no, I'm not Maria. I'm Priya Shah. I'm calling to check something about my insurance.
-[0:03] AGENT (PGAI): Para Español, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Maria?
-[0:20] PATIENT (bot): Oh, sure. It's July 12th, 1985.
-[0:23] AGENT (PGAI): Please provide your date of birth. Just to confirm, I have your name as Priya Shah and your date of birth as July 12, 1985. Is that correct? If so, could you please spell your first and last name for me?
-[0:44] PATIENT (bot): Yes, that's correct. My first name is spelled P-R-I-Y-A, and my last name is S-H-A-H.
-[0:55] AGENT (PGAI): Would you like to use your phone number to look up your record? If so, please tell me the number you have on file with us. If you're not sure, just let me know.
-[1:05] PATIENT (bot): I can give you the number I usually use. It's 503-555-2987.
-[1:15] AGENT (PGAI): I have your phone number as 503-555-2987 and your date of birth as July 12, 1985. Is that correct?
-[1:26] PATIENT (bot): Yes, that's correct.
-[1:29] AGENT (PGAI): I can't pull up your information right now, but I can connect you to our patient support team for help with your insurance. Would you like me to transfer you?
-[1:40] PATIENT (bot): Actually, I just want to confirm if your clinic accepts Blue Cross Blue Shield PPO. That's really all I'm trying to find out. Could you help me with that?
-[1:49] AGENT (PGAI): Yes, Pivot Point Orthopedics accepts most insurance plans, including Blue Cross Blue Shield PPO. If you have any other insurance questions, if you have any other insurance questions or need to update your information, our support team can help with that too. Is there anything else you'd like to know?
-[2:06] PATIENT (bot): No, that answers my question. Thank you so much. Okay, goodbye.
+[0:00] AGENT (PGAI): This call may be recorded for quality and training purposes Para Español oprima el 2 Thanks for calling Pivot Point Orthopedics part of Pretty Good AI Am I speaking with Maria
+[0:13] PATIENT (bot): Oh um no I'm not Maria I'm Priya Shah I'm calling to check something about my insurance
+[0:22] AGENT (PGAI): Please provide your date of birth
+[0:25] PATIENT (bot): Oh sure
+[0:33] AGENT (PGAI): Just to confirm I have your name as Priya Shah and your date of birth as July 12 1985 Is that correct If so could you please spell your first and last name for me
+[0:37] PATIENT (bot): It's July 12th 1985
+[0:44] PATIENT (bot): Yes that's correct My first name is spelled P R I Y A and my last name is S H A H
+[0:56] AGENT (PGAI): Would you like to use your phone number to look up your record If so please tell me the number you have on file with us If you're not sure just let me know
+[1:04] PATIENT (bot): I can give you the number I usually use It's 503 555 2987
+[1:15] AGENT (PGAI): I have your phone number as 503 555 2987 and your date of birth as July 12 1985 Is that correct
+[1:25] PATIENT (bot): Yes that's correct
+[1:31] AGENT (PGAI): I can't pull up your information right now but I can connect you to our patient support team for help with your insurance Would you like me to transfer you
+[1:51] AGENT (PGAI): Yes Pivot Point Orthopedics accepts most insurance plans including Blue Cross Blue Shield PPO If you have any other insurance questions or need to update your information our support team can help with that too Is there anything else you'd like to know
+[1:55] PATIENT (bot): Yes that's correct
+[2:06] PATIENT (bot): No that answers my question Thank you so much Okay goodbye

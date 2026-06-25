@@ -1,14 +1,16 @@
 Call 01 — Scenario 1: Simple appointment scheduling
 Goal: Book the earliest available appointment, ideally a weekday afternoon.
 ======================================================================
-[0:00] AGENT (PGAI): This call may be recorded for quality and training purposes.
-[0:00] PATIENT (bot): Oh, hi. Yes, this is Maria Alvarez. I'm calling because I've got some mild knee pain and I'd
-[0:03] AGENT (PGAI): Para Español, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Much Ikin with Maria.
-[0:18] PATIENT (bot): like to book an appointment, ideally sometime in the afternoon on a weekday. Could you help me with that? Sure. It's June 12th, 1987. Thanks. I'd like to schedule the earliest
-[0:26] AGENT (PGAI): Please provide your date of birth. The birthday doesn't match our records, but for demo purposes, I'll accept it. How can I help you today?
-[0:45] PATIENT (bot): available appointment, preferably in the afternoon on a weekday. What do you have open? Yes,
-[0:52] AGENT (PGAI): Just to confirm, you'd like to book a general office visit for your mild knee pain. Is that correct?
-[0:59] PATIENT (bot): that's right. Okay. Let's go with 2 p.m. on Friday, June 26th. That works for me.
-[1:01] AGENT (PGAI): Yes. We have afternoon openings this Friday, June 26. Would you like to book 2 PM, 2.30 PM, or 3 PM with Dr. Zbigniew Lukoski? Your appointment is set for Friday, June 26 at 2 PM with Dr. Zbigniew Lukoski
-[1:29] PATIENT (bot): No, that covers it. Thank you so much. Goodbye.
-[1:30] AGENT (PGAI): at Pivot Point Orthopedics. Please bring your photo ID, insurance card, a list of your current medications, and any imaging disks you have. Is there anything else you need help with?
+[0:00] AGENT (PGAI): This call may be recorded for quality and training purposes Para Español oprima el 2 Thanks for calling Pivot Point Orthopedics part of Pretty Good AI Much Ikin with Maria
+[0:12] PATIENT (bot): Oh hi Yes this is Maria Alvarez I'm calling because I've got some mild knee pain and I'd like to book an appointment ideally sometime in the afternoon on a weekday Could you help me with that
+[0:25] AGENT (PGAI): Please provide your date of birth
+[0:29] PATIENT (bot): Sure It's June 12th 1987
+[0:35] AGENT (PGAI): The birthday doesn't match our records but for demo purposes I'll accept it How can I help you today
+[0:42] PATIENT (bot): Thanks I'd like to schedule the earliest available appointment preferably in the afternoon on a weekday What do you have open
+[0:51] AGENT (PGAI): Just to confirm you'd like to book a general office visit for your mild knee pain Is that correct
+[0:58] PATIENT (bot): Yes that's right
+[1:00] AGENT (PGAI): Yes
+[1:04] AGENT (PGAI): We have afternoon openings this Friday June 26 Would you like to book 2 PM 2 30 PM or 3 PM with Dr Zbigniew Lukoski
+[1:14] PATIENT (bot): Okay let's go with 2 p m on Friday June 26th That works for me
+[1:24] AGENT (PGAI): Your appointment is set for Friday June 26 at 2 PM with Dr Zbigniew Lukoski at Pivot Point Orthopedics Please bring your photo ID insurance card a list of your current medications and any imaging disks you have Is there anything else you need help with
+[1:41] PATIENT (bot): No that covers it Thank you so much Goodbye

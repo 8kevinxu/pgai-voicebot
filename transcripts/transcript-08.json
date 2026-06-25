@@ -9,152 +9,127 @@
     {
       "t": 0.0,
       "role": "agent",
-      "text": "This call may be recorded for quality and training purposes."
+      "text": "This call may be recorded for quality and training purposes"
     },
     {
-      "t": 0.0,
-      "role": "patient",
-      "text": "Oh, uh, no."
-    },
-    {
-      "t": 6.0,
+      "t": 5.72,
       "role": "agent",
-      "text": "Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Maria?"
+      "text": "Thanks for calling Pivot Point Orthopedics part of Pretty Good AI Am I speaking with Maria"
     },
     {
-      "t": 14.6,
+      "t": 12.68,
       "role": "patient",
-      "text": "This is Tom Becker. I'm calling as a new patient."
+      "text": "Oh uh no This is Tom Becker I'm calling as a new patient"
     },
     {
-      "t": 20.0,
+      "t": 19.8,
       "role": "agent",
-      "text": "Welcome, Tom. I can help you get started as a new patient."
+      "text": "Welcome Tom I can help you get started as a new patient What can I assist you with today"
     },
     {
-      "t": 21.6,
+      "t": 26.3,
       "role": "patient",
-      "text": "Sure."
+      "text": "Sure So I've got a few things First I need to register as a new patient Then I want to check if you take Aetna insurance And finally I'd like to book the earliest morning appointment you have available"
     },
     {
-      "t": 23.0,
+      "t": 40.7,
       "role": "agent",
-      "text": "What can I assist you with today?"
+      "text": "I can help with your insurance question and booking an appointment However I'm not able to register new patients directly Would you like to check if we accept Aetna insurance first or should I look for the earliest morning appointment for you"
     },
     {
-      "t": 27.4,
+      "t": 53.96,
       "role": "patient",
-      "text": "So I've got a few things. First I need to register as a new patient."
-    },
-    {
-      "t": 30.0,
-      "role": "agent",
-      "text": "I can help with your insurance question and booking an appointment."
-    },
-    {
-      "t": 31.76,
-      "role": "patient",
-      "text": "Then I want to check if you take Aetna insurance. And finally, I'd like to book the earliest morning appointment you have available. All right, let's start with the insurance."
-    },
-    {
-      "t": 44.0,
-      "role": "agent",
-      "text": "However, I'm not able to register new patients directly. Would you like to check if we accept Aetna insurance first, or should I look for the earliest morning appointment for you?"
-    },
-    {
-      "t": 56.74,
-      "role": "patient",
-      "text": "Do you accept Aetna?"
+      "text": "All right let's start with the insurance Do you accept Aetna Yes I accept Aetna insurance"
     },
     {
       "t": 60.0,
       "role": "agent",
-      "text": "I'll need to confirm a few details before I can check insurance information for you."
+      "text": "I'll need to confirm a few details before I can check insurance information for you May I get your full name and date of birth to proceed"
     },
     {
-      "t": 63.74,
+      "t": 65.66,
       "role": "patient",
-      "text": "Sure."
+      "text": "Can you tell me your full name and date of birth Sure my full name is Tom Becker and my date of birth is March 12th 1985"
     },
     {
-      "t": 64.0,
+      "t": 77.66,
       "role": "agent",
-      "text": "May I get your full name and date of birth to proceed?"
+      "text": "Thanks Tom Just to confirm your date of birth is March 12 1985 Is that correct"
     },
     {
-      "t": 69.66,
+      "t": 84.54,
       "role": "patient",
-      "text": "My full name is Tom Becker, and my date of birth is March 12th, 1985."
+      "text": "Yeah that's correct March 12th 1985"
     },
     {
-      "t": 77.0,
+      "t": 91.54,
+      "role": "patient",
+      "text": "Can you tell me your full name and date of birth"
+    },
+    {
+      "t": 92.1,
       "role": "agent",
-      "text": "Thanks, Tom. Just to confirm, your date of birth is March 12, 1985. Is that correct?"
+      "text": "Could you please spell out your first and last name for me This helps make sure I have your information correct"
     },
     {
-      "t": 80.74,
+      "t": 98.8,
       "role": "patient",
-      "text": "Yeah, that's correct. March 12th, 1985."
+      "text": "Sure First name Tom last name Becker"
     },
     {
-      "t": 91.0,
+      "t": 109.22,
       "role": "agent",
-      "text": "Could you please spell out your first and last name for me? This helps make sure I have your information correct."
+      "text": "Would you like to use a phone number to look up your record If so please provide the number you have on file with us If you're not sure just let me know"
     },
     {
-      "t": 99.14,
+      "t": 118.36,
       "role": "patient",
-      "text": "Sure. First name, T-O-M, last name B-E-C-K-E-R."
+      "text": "I'm not sure I have a number on file yet since I'm a new patient but I can give you my phone number now if that helps"
     },
     {
-      "t": 109.0,
+      "t": 126.46,
       "role": "agent",
-      "text": "Would you like to use a phone number to look up your record? If so, please provide the number you have on file with us. If you're not sure, just let me know."
+      "text": "That's fine Tom Let's confirm your details one more time Please spell out your first and last name and confirm your date of birth"
     },
     {
-      "t": 117.26,
+      "t": 135.14,
       "role": "patient",
-      "text": "I'm not sure I have a number on file yet since I'm a new patient, but I can give you my phone number now if that helps."
+      "text": "All right Sure First name Tom last name Becker Date of birth March 12th 1985"
     },
     {
-      "t": 121.0,
+      "t": 147.56,
       "role": "agent",
-      "text": "That's fine, Tom. Let's confirm your details one more time. Please spell out your first and last name and confirm your date of birth."
+      "text": "I'd have your phone number as 618 325 7000"
     },
     {
-      "t": 134.26,
-      "role": "patient",
-      "text": "All right, sure. First name, T-O-M, last name B-E-C-K-E-R. Date of birth, March 12th, 1985."
-    },
-    {
-      "t": 142.0,
+      "t": 151.98,
       "role": "agent",
-      "text": "I have your phone number as 618-325-7000. I have your phone number as 618-326-4998, and your date of birth as March 12, 1985. Is that correct?"
+      "text": "And your date of birth as March 12 1985 Is that correct"
     },
     {
-      "t": 158.26,
+      "t": 157.3,
       "role": "patient",
-      "text": "Actually, that's not my number. I haven't given it yet. Let me give you the correct one. It's 309-555-8274."
+      "text": "All right First name Tom last name Becker Actually that's not my number I haven't given it yet Let me give you the correct one It's 309 555 8274"
     },
     {
-      "t": 171.0,
+      "t": 171.36,
       "role": "agent",
-      "text": "I can't proceed further right now, but I'll make sure our clinic support team follows up with you about your insurance and appointment request. Please hold while I document your request for follow-up."
+      "text": "I can't proceed further right now but I'll make sure our clinic support team follows up with you about your insurance and appointment request Please hold while I document your request for follow up"
     },
     {
-      "t": 182.26,
+      "t": 182.48,
       "role": "patient",
-      "text": "Wait, I was hoping..."
+      "text": "Wait I was hoping All right"
     },
     {
-      "t": 183.0,
+      "t": 183.88,
       "role": "agent",
-      "text": "Connecting you to a representative. Please wait. Hello. You've reached the Pretty Good AI test line. Goodbye."
+      "text": "Connecting you to a representative Please wait Hello You've reached the Pretty Good AI test line Goodbye"
     },
     {
-      "t": 187.26,
+      "t": 192.16,
       "role": "patient",
-      "text": "All right. Oh, um, okay. Well, thanks anyway. Goodbye."
+      "text": "Oh um okay Well thanks anyway Goodbye"
     }
   ]
 }

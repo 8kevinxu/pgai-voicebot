@@ -35,21 +35,37 @@ def split_channel(src: Path, channel: int, dest: Path) -> None:
     )
 
 
+def _attr(obj, key):
+    return obj[key] if isinstance(obj, dict) else getattr(obj, key)
+
+
 def transcribe(client: OpenAI, path: Path) -> list[dict]:
+    """Return speaker turns for one (single-speaker) channel.
+
+    Whisper's segment-level start times are coarse and can misreport leading silence as t=0,
+    which scrambles ordering. Word-level timestamps are accurate, so we group words into turns
+    on real silence gaps — this keeps ordering correct and each utterance whole.
+    """
     with path.open("rb") as f:
         resp = client.audio.transcriptions.create(
             model="whisper-1",
             file=f,
             response_format="verbose_json",
-            timestamp_granularities=["segment"],
+            timestamp_granularities=["word"],
         )
-    out = []
-    for seg in (resp.segments or []):
-        start = seg["start"] if isinstance(seg, dict) else seg.start
-        text = (seg["text"] if isinstance(seg, dict) else seg.text).strip()
-        if text:
-            out.append({"start": float(start), "text": text})
-    return out
+
+    GAP_S = 1.5  # a silence gap longer than this between words starts a new turn
+    turns: list[dict] = []
+    for w in (resp.words or []):
+        start, end, word = float(_attr(w, "start")), float(_attr(w, "end")), _attr(w, "word")
+        if turns and start - turns[-1]["end"] <= GAP_S:
+            turns[-1]["text"] += " " + word
+            turns[-1]["end"] = end
+        else:
+            turns.append({"start": start, "end": end, "text": word})
+    for t in turns:
+        t["text"] = t["text"].strip()
+    return turns
 
 
 def first_start(segs: list[dict]) -> float:
@@ -87,19 +103,16 @@ def main() -> None:
         else:
             agent_segs, patient_segs = seg_right, seg_left
 
+        # Each channel already returns whole turns; merge the two speakers and sort by time.
         merged = (
-            [{"start": s["start"], "role": TranscriptLog.AGENT, "text": s["text"]} for s in agent_segs]
-            + [{"start": s["start"], "role": TranscriptLog.PATIENT, "text": s["text"]} for s in patient_segs]
+            [{"start": t["start"], "role": TranscriptLog.AGENT, "text": t["text"]} for t in agent_segs]
+            + [{"start": t["start"], "role": TranscriptLog.PATIENT, "text": t["text"]} for t in patient_segs]
         )
         merged.sort(key=lambda x: x["start"])
 
-        # Group consecutive segments from the same speaker into one turn.
         log = TranscriptLog(idx, scenario, call_sid=meta.get("call_sid"))
-        for seg in merged:
-            if log.lines and log.lines[-1]["role"] == seg["role"]:
-                log.lines[-1]["text"] += " " + seg["text"]
-            else:
-                log.lines.append({"t": round(seg["start"], 2), "role": seg["role"], "text": seg["text"]})
+        for t in merged:
+            log.lines.append({"t": round(t["start"], 2), "role": t["role"], "text": t["text"].strip()})
 
         paths = log.write(config.TRANSCRIPTS_DIR)
         print(f"[transcribe] call-{idx:02d}: {len(log.lines)} turns -> {paths['txt'].name}")

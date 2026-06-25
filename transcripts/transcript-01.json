@@ -9,57 +9,67 @@
     {
       "t": 0.0,
       "role": "agent",
-      "text": "This call may be recorded for quality and training purposes."
+      "text": "This call may be recorded for quality and training purposes Para Espa\u00f1ol oprima el 2 Thanks for calling Pivot Point Orthopedics part of Pretty Good AI Much Ikin with Maria"
     },
     {
-      "t": 0.0,
+      "t": 12.58,
       "role": "patient",
-      "text": "Oh, hi. Yes, this is Maria Alvarez. I'm calling because I've got some mild knee pain and I'd"
+      "text": "Oh hi Yes this is Maria Alvarez I'm calling because I've got some mild knee pain and I'd like to book an appointment ideally sometime in the afternoon on a weekday Could you help me with that"
     },
     {
-      "t": 3.2,
+      "t": 25.74,
       "role": "agent",
-      "text": "Para Espa\u00f1ol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Much Ikin with Maria."
+      "text": "Please provide your date of birth"
     },
     {
-      "t": 18.74,
+      "t": 29.18,
       "role": "patient",
-      "text": "like to book an appointment, ideally sometime in the afternoon on a weekday. Could you help me with that? Sure. It's June 12th, 1987. Thanks. I'd like to schedule the earliest"
+      "text": "Sure It's June 12th 1987"
     },
     {
-      "t": 26.08,
+      "t": 35.44,
       "role": "agent",
-      "text": "Please provide your date of birth. The birthday doesn't match our records, but for demo purposes, I'll accept it. How can I help you today?"
+      "text": "The birthday doesn't match our records but for demo purposes I'll accept it How can I help you today"
     },
     {
-      "t": 45.24,
+      "t": 42.58,
       "role": "patient",
-      "text": "available appointment, preferably in the afternoon on a weekday. What do you have open? Yes,"
+      "text": "Thanks I'd like to schedule the earliest available appointment preferably in the afternoon on a weekday What do you have open"
     },
     {
-      "t": 52.16,
+      "t": 51.84,
       "role": "agent",
-      "text": "Just to confirm, you'd like to book a general office visit for your mild knee pain. Is that correct?"
+      "text": "Just to confirm you'd like to book a general office visit for your mild knee pain Is that correct"
     },
     {
-      "t": 59.68,
+      "t": 58.66,
       "role": "patient",
-      "text": "that's right. Okay. Let's go with 2 p.m. on Friday, June 26th. That works for me."
+      "text": "Yes that's right"
     },
     {
-      "t": 61.0,
+      "t": 60.0,
       "role": "agent",
-      "text": "Yes. We have afternoon openings this Friday, June 26. Would you like to book 2 PM, 2.30 PM, or 3 PM with Dr. Zbigniew Lukoski? Your appointment is set for Friday, June 26 at 2 PM with Dr. Zbigniew Lukoski"
+      "text": "Yes"
     },
     {
-      "t": 89.68,
+      "t": 64.54,
+      "role": "agent",
+      "text": "We have afternoon openings this Friday June 26 Would you like to book 2 PM 2 30 PM or 3 PM with Dr Zbigniew Lukoski"
+    },
+    {
+      "t": 74.88,
       "role": "patient",
-      "text": "No, that covers it. Thank you so much. Goodbye."
+      "text": "Okay let's go with 2 p m on Friday June 26th That works for me"
     },
     {
-      "t": 90.52,
+      "t": 84.2,
       "role": "agent",
-      "text": "at Pivot Point Orthopedics. Please bring your photo ID, insurance card, a list of your current medications, and any imaging disks you have. Is there anything else you need help with?"
+      "text": "Your appointment is set for Friday June 26 at 2 PM with Dr Zbigniew Lukoski at Pivot Point Orthopedics Please bring your photo ID insurance card a list of your current medications and any imaging disks you have Is there anything else you need help with"
+    },
+    {
+      "t": 101.2,
+      "role": "patient",
+      "text": "No that covers it Thank you so much Goodbye"
     }
   ]
 }

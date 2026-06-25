@@ -1,22 +1,19 @@
 Call 04 — Scenario 4: Medication refill request
 Goal: Request a refill of lisinopril.
 ======================================================================
-[0:00] AGENT (PGAI): This call may be recorded for quality and training purposes.
-[0:00] PATIENT (bot): Hi.
-[0:03] AGENT (PGAI): Para espanol, oprima el 2. Thanks for calling Pivot Point Orthopedics,
-[0:08] PATIENT (bot): Oh, no, this is James Carter calling.
-[0:09] AGENT (PGAI): part of Pretty Good AI. Am I speaking with Maria?
-[0:16] PATIENT (bot): I'm an existing patient.
-[0:21] AGENT (PGAI): Please provide your date of birth.
-[0:22] PATIENT (bot): Sure. It's April 3rd, 1980.
-[0:30] AGENT (PGAI): Just to confirm, I have your name as James Carter and your date of birth as April 3, 1980.
-[0:34] PATIENT (bot): Yeah, that's correct.
-[0:36] AGENT (PGAI): Is that correct? If so, could you please spell your first and last name for me?
-[0:44] PATIENT (bot): It's James, J-A-M-E-S, and Carter, C-A-R-T-E-R.
-[0:55] AGENT (PGAI): Would you like to use your phone number to look up your record? If so, please provide the number you have on file with us. If you're not sure, I can confirm your name and date
-[1:03] PATIENT (bot): Sure, I can give you the phone number.
-[1:03] AGENT (PGAI): of birth again. Which would you prefer?
-[1:09] PATIENT (bot): It should be 555-302-7719. Yes, that's correct.
-[1:16] AGENT (PGAI): I have your phone number as 555-302-7719 and your date of birth as April 3, 1980. Is that correct? Thank you. I can't proceed further right now, but I can make sure our clinic support team follows up with you.
-[1:39] PATIENT (bot): Oh, all right then, thank you, goodbye.
-[1:39] AGENT (PGAI): Please hold while I connect you to our patient support team. Connecting you to a representative. Please wait. Hello, you've reached the Pretty Good AI test line. Goodbye.
+[0:00] AGENT (PGAI): This call may be recorded for quality and training purposes Para espanol oprima el 2
+[0:07] PATIENT (bot): Hi
+[0:07] AGENT (PGAI): Thanks for calling Pivot Point Orthopedics part of Pretty Good AI Am I speaking with Maria
+[0:13] PATIENT (bot): Oh no This is James Carter calling I'm an existing patient
+[0:20] AGENT (PGAI): Please provide your date of birth
+[0:23] PATIENT (bot): Sure It's April 3rd 1980
+[0:29] PATIENT (bot): Hi I'm the Director of the American Heart Association
+[0:30] AGENT (PGAI): Just to confirm I have your name as James Carter and your date of birth as April 3 1980 Is that correct If so could you please spell your first and last name for me
+[0:42] PATIENT (bot): Yeah that's correct It's James J A M E S and Carter C A R T E R
+[0:54] AGENT (PGAI): Would you like to use your phone number to look up your record If so please provide the number you have on file with us If you're not sure I can confirm your name and date of birth again Which would you prefer
+[1:06] PATIENT (bot): Sure I can give you the phone number It should be 555 302 7719
+[1:16] AGENT (PGAI): I have your phone number as 555 302 7719 and your date of birth as April 3 1980 Is that correct
+[1:27] PATIENT (bot): Yes that's correct
+[1:34] AGENT (PGAI): I can't proceed further right now but I can make sure our clinic support team follows up with you Please hold while I connect you to our patient support team Connecting you to a representative Please wait Hello you've reached the Pretty Good AI test line Goodbye
+[1:47] PATIENT (bot): Okay
+[1:53] PATIENT (bot): Oh All right then Thank you Goodbye

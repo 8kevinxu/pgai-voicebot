@@ -9,82 +9,77 @@
     {
       "t": 0.0,
       "role": "agent",
-      "text": "This call may be recorded for quality and training purposes."
+      "text": "This call may be recorded for quality and training purposes Para Espa\u00f1ol oprima el 2 Thanks for calling Pivot Point Orthopedics part of Pretty Good AI Am I speaking with Maria"
     },
     {
-      "t": 0.0,
+      "t": 12.4,
       "role": "patient",
-      "text": "Oh, hi there."
+      "text": "Oh hi there No this is David Kim calling I actually have an appointment this Thursday at 2pm but I need to reschedule it"
     },
     {
-      "t": 3.2,
+      "t": 25.6,
       "role": "agent",
-      "text": "Para Espa\u00f1ol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Maria?"
+      "text": "Please provide the full name and date of birth of the patient who needs to reschedule the appointment"
     },
     {
-      "t": 14.0,
+      "t": 31.2,
       "role": "patient",
-      "text": "No, this is David Kim calling. I actually have an appointment this Thursday at 2pm, but I need to reschedule it."
+      "text": "Sure it's David Kim and my date of birth is July 12th 1985"
     },
     {
-      "t": 25.96,
+      "t": 40.48,
       "role": "agent",
-      "text": "Please provide the full name and date of birth of the patient who needs to reschedule the appointment."
+      "text": "Just to confirm I have your name as David Kim and your date of birth is July 12 1985 Is that correct"
     },
     {
-      "t": 31.0,
+      "t": 48.58,
       "role": "patient",
-      "text": "Sure, it's David Kim, and my date of birth is July 12th, 1985."
+      "text": "Yes that's correct"
     },
     {
-      "t": 40.6,
+      "t": 54.2,
       "role": "agent",
-      "text": "Just to confirm, I have your name as David Kim, and your date of birth is July 12, 1985. Is that correct?"
+      "text": "Would you like me to look up your record using the phone number you have on file with us If so please tell me that number If you're not sure I can confirm your name and date of birth again just let me know what you prefer"
     },
     {
-      "t": 48.0,
+      "t": 66.66,
       "role": "patient",
-      "text": "Yes, that's correct."
+      "text": "I can give you the phone number It's 555 213 7790"
     },
     {
-      "t": 54.48,
+      "t": 77.0,
       "role": "agent",
-      "text": "Would you like me to look up your record using the phone number you have on file with us? If so, please tell me that number."
+      "text": "I have your phone number as 555 213 7790 and your date of birth is July 12 1985 Is that correct"
     },
     {
-      "t": 60.0,
+      "t": 78.76,
       "role": "patient",
-      "text": "I can give you the phone number. It's 555-213-7790."
+      "text": "No"
     },
     {
-      "t": 61.08,
+      "t": 88.02,
+      "role": "patient",
+      "text": "Yes that's all correct"
+    },
+    {
+      "t": 94.44,
       "role": "agent",
-      "text": "If you're not sure I can confirm your name and date of birth again, just let me know what you prefer."
+      "text": "I can't help with rescheduling right now but I can connect you to our patient support team for help Please stay on the line while I transfer your call Connecting you to a representative Please wait"
     },
     {
-      "t": 74.0,
+      "t": 106.08,
       "role": "patient",
-      "text": "Yes, that's all correct."
+      "text": "All right"
     },
     {
-      "t": 77.4,
+      "t": 106.7,
       "role": "agent",
-      "text": "I have your phone number as 555-213-7790, and your date of birth is July 12, 1985. Is that correct? I can't help with rescheduling right now, but I can connect you to our patient support team for help. Please stay on the line while I transfer your call. Connecting you to a representative. Please wait."
+      "text": "Hello you've reached the Pretty Good AI test line Goodbye"
     },
     {
-      "t": 105.0,
+      "t": 111.68,
       "role": "patient",
-      "text": "All right."
-    },
-    {
-      "t": 106.6,
-      "role": "agent",
-      "text": "Hello, you've reached the Pretty Good AI test line. Goodbye."
-    },
-    {
-      "t": 111.0,
-      "role": "patient",
-      "text": "Oh, okay. Well, thanks anyway. Goodbye."
+      "text": "Oh okay Well thanks anyway Goodbye"
     }
   ]
 }

@@ -9,52 +9,72 @@
     {
       "t": 0.0,
       "role": "agent",
-      "text": "This call may be recorded for quality and training purposes."
+      "text": "This call may be recorded for quality and training purposes Para Espa\u00f1ol oprima el 2 Thanks for calling Pivot Point Orthopedics part of Pretty Good AI Am I speaking with Maria"
     },
     {
-      "t": 0.0,
+      "t": 13.08,
       "role": "patient",
-      "text": "Oh, um, no, this is Susan Patel calling."
+      "text": "Oh um no this is Susan Patel calling"
     },
     {
-      "t": 3.24,
+      "t": 18.58,
       "role": "agent",
-      "text": "Para Espa\u00f1ol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Maria? Thanks for letting me know, Susan. Are you calling for yourself or for someone else today? Please provide your date of birth."
+      "text": "Thanks for letting me know Susan Are you calling for yourself or for someone else today"
     },
     {
-      "t": 24.88,
+      "t": 24.18,
       "role": "patient",
-      "text": "I'm calling for myself. Yeah. Sure. It's February 14th, 1985. Yes, that's correct. It's Susan, S-U-S-A-N, and Patel, P-A-T-E-L."
+      "text": "I'm calling for myself yeah"
     },
     {
-      "t": 39.8,
+      "t": 29.1,
       "role": "agent",
-      "text": "Just to confirm, I have your name as Susan Patel and your date of birth as February 14, 1985. Is that correct? If so, could you please spell your first and last name for me? Would you like me to look up your record using the phone number you have on file with us?"
+      "text": "Please provide your date of birth"
     },
     {
-      "t": 65.52,
+      "t": 32.54,
       "role": "patient",
-      "text": "I can give you the number. It's 555-201-3398."
+      "text": "Sure it's February 14th 1985"
     },
     {
-      "t": 66.48,
+      "t": 39.56,
       "role": "agent",
-      "text": "If so, please provide that number. If you're not sure, I can confirm your name and date of birth with you again. Which would you prefer? I have your phone number as 555-201-3398 and your date of birth as February 14, 1985. Is that correct?"
+      "text": "Just to confirm I have your name as Susan Patel and your date of birth as February 14 1985 Is that correct If so could you please spell your first and last name for me"
     },
     {
-      "t": 96.52,
+      "t": 50.68,
       "role": "patient",
-      "text": "Yeah, that's right."
+      "text": "Yes that's correct it's Susan S U S A N and Patel P A T E L"
     },
     {
-      "t": 103.8,
+      "t": 62.08,
       "role": "agent",
-      "text": "I can't proceed further right now, but I can make sure our clinic support team follows up with you. Please hold while I connect you to our patient support team. Connecting you to a representative. Please wait. Hello, you've reached the Pretty Good AI test line. Goodbye."
+      "text": "Would you like me to look up your record using the phone number you have on file with us If so please provide that number If you're not sure I can confirm your name and date of birth with you again Which would you prefer"
     },
     {
-      "t": 120.52,
+      "t": 75.56,
       "role": "patient",
-      "text": "Okay. Thank you. Goodbye."
+      "text": "I can give you the number it's 555 201 3398"
+    },
+    {
+      "t": 85.58,
+      "role": "agent",
+      "text": "I have your phone number as 555 201 3398 and your date of birth as February 14 1985 Is that correct"
+    },
+    {
+      "t": 97.96,
+      "role": "patient",
+      "text": "Yeah that's right"
+    },
+    {
+      "t": 103.38,
+      "role": "agent",
+      "text": "I can't proceed further right now but I can make sure our clinic support team follows up with you Please hold while I connect you to our patient support team Connecting you to a representative Please wait Hello you've reached the Pretty Good AI test line Goodbye"
+    },
+    {
+      "t": 121.24,
+      "role": "patient",
+      "text": "Okay thank you goodbye"
     }
   ]
 }
