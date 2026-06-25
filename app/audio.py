@@ -94,15 +94,17 @@ class CallRecorder:
             w.writeframes(stereo.astype("<i2").tobytes())
 
         outputs = {"wav": wav_path}
-        for ext, args in (("mp3", ["-q:a", "4"]), ("ogg", ["-c:a", "libopus", "-b:a", "32k"])):
-            out = recordings_dir / f"{stem}.{ext}"
-            try:
-                subprocess.run(
-                    ["ffmpeg", "-y", "-i", str(wav_path), *args, str(out)],
-                    check=True,
-                    capture_output=True,
-                )
-                outputs[ext] = out
-            except (subprocess.CalledProcessError, FileNotFoundError) as exc:
-                print(f"[audio] ffmpeg {ext} conversion failed ({exc}). WAV kept at {wav_path}.")
+        # Local mp3 from the tapped stream. This is a fallback/preview; for the cleanest,
+        # properly-timed audio use scripts/fetch_recordings.py to pull Twilio's server-side
+        # dual-channel recording (avoids wall-clock jitter in the frame timeline).
+        out = recordings_dir / f"{stem}.mp3"
+        try:
+            subprocess.run(
+                ["ffmpeg", "-y", "-i", str(wav_path), "-c:a", "libmp3lame", "-b:a", "64k", str(out)],
+                check=True,
+                capture_output=True,
+            )
+            outputs["mp3"] = out
+        except (subprocess.CalledProcessError, FileNotFoundError) as exc:
+            print(f"[audio] ffmpeg mp3 conversion failed ({exc}). WAV kept at {wav_path}.")
         return outputs

@@ -1,5 +1,6 @@
 {
   "call_index": 3,
+  "call_sid": "CA58a580917671f97bb70def801f249b5e",
   "scenario_id": "3",
   "scenario_title": "Cancel an appointment",
   "goal": "Cancel the upcoming appointment cleanly.",

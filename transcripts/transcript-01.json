@@ -1,5 +1,6 @@
 {
   "call_index": 1,
+  "call_sid": "CA41178dc9da301c8f76bbc816ff4eca78",
   "scenario_id": "1",
   "scenario_title": "Simple appointment scheduling",
   "goal": "Book the earliest available appointment, ideally a weekday afternoon.",

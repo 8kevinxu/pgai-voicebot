@@ -1,5 +1,6 @@
 {
   "call_index": 11,
+  "call_sid": "CA64e96d467ea9a165d3f6a88e6179b107",
   "scenario_id": "11",
   "scenario_title": "EDGE: interruption and mid-call topic change",
   "goal": "Start booking a physical, interrupt the agent mid-sentence, then switch to asking about a refill instead.",

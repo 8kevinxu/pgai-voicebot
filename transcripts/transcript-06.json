@@ -1,5 +1,6 @@
 {
   "call_index": 6,
+  "call_sid": "CA4a6bc7539b7a40f2886be45ce726e87d",
   "scenario_id": "6",
   "scenario_title": "Location and directions",
   "goal": "Get the clinic's address and rough directions or parking info.",

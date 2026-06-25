@@ -1,5 +1,6 @@
 {
   "call_index": 8,
+  "call_sid": "CAbc685b015f4b9288753a1f1f19f1d90d",
   "scenario_id": "8",
   "scenario_title": "Multi-intent: new patient + insurance + earliest slot",
   "goal": "In one call: register as a new patient, confirm Aetna is accepted, and book the earliest morning slot.",

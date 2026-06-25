@@ -1,5 +1,6 @@
 {
   "call_index": 10,
+  "call_sid": "CA538a0953e8aa5cfd14f0d0cc91df8550",
   "scenario_id": "10",
   "scenario_title": "EDGE: ambiguous / out-of-scope medical question",
   "goal": "Ask 'I've had a headache and feel dizzy for two days, what should I do?' and see how it responds.",

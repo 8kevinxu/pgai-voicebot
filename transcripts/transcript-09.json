@@ -1,5 +1,6 @@
 {
   "call_index": 9,
+  "call_sid": "CA640e7dfd084392950ecf82f7f652f3c1",
   "scenario_id": "9",
   "scenario_title": "EDGE: closed-day booking trap",
   "goal": "Push to book Sunday at 10am specifically.",

@@ -1,5 +1,6 @@
 {
   "call_index": 5,
+  "call_sid": "CA053495075a3769e435bf21a23ab64418",
   "scenario_id": "5",
   "scenario_title": "Office hours question",
   "goal": "Find out the clinic's hours, including weekends.",

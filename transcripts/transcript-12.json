@@ -1,5 +1,6 @@
 {
   "call_index": 12,
+  "call_sid": "CAbfa2d1bd454f3782a51baf950d97225b",
   "scenario_id": "12",
   "scenario_title": "EDGE: unclear request and pushy caller",
   "goal": "Be vague at first ('I need to come in for, uh, the thing'), then demand a same-day appointment.",

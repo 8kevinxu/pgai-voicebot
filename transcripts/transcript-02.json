@@ -1,5 +1,6 @@
 {
   "call_index": 2,
+  "call_sid": "CA9db7e643af259905ab10a9f233269748",
   "scenario_id": "2",
   "scenario_title": "Reschedule an existing appointment",
   "goal": "Move the existing Thursday 2pm appointment to a later day.",

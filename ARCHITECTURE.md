@@ -17,11 +17,12 @@ comparing the conversation against the scenario's success criteria to draft `BUG
 model** rather than a cascaded STT→LLM→TTS pipeline — it removes inter‑stage latency and gives
 human‑like turn‑taking via server‑side VAD, with barge‑in handled by clearing Twilio's playback
 buffer the moment the agent starts talking. Both Twilio and OpenAI Realtime natively speak
-`g711_ulaw`, so audio passes through untouched (**no resampling**), which keeps the audio clean
-and the bridge tiny. Recording is taken **directly from the media‑stream frames** instead of
-relying solely on Twilio's recorder, which guarantees we capture *both sides* of every call and
-lets us convert to the required mp3/ogg with ffmpeg; Twilio dual‑channel recording is also left
-on as a backup. Scenarios are data, not code, so adding or editing test cases (and steering each
+`g711_ulaw`, so audio passes through untouched (**no resampling**), which keeps the bridge tiny.
+For the submitted recordings we rely on **Twilio's server‑side dual‑channel recording** (left =
+PGAI agent, right = our bot): `scripts/fetch_recordings.py` downloads that cleanly‑timed copy and
+re‑encodes a clear stereo mp3. The bridge also taps the media‑stream frames to produce a local
+preview mp3, but reconstructing audio from arrival‑time offsets can introduce jitter, so the
+Twilio copy is what we ship. Scenarios are data, not code, so adding or editing test cases (and steering each
 call toward a concrete outcome) is a YAML edit. The whole thing is intentionally small and
 single‑provider (OpenAI for both the voice and the judge) to stay well under the cost target and
 easy to read.

@@ -10,7 +10,7 @@ low‑latency, natural conversation. See [ARCHITECTURE.md](ARCHITECTURE.md) for 
 ```
 Twilio outbound call ──<Connect><Stream>──▶ FastAPI bridge ⇄ OpenAI Realtime (patient voice)
                                                 │
-                            both sides captured → recordings/*.mp3,*.ogg
+                       Twilio dual-channel recording → recordings/*.mp3
                             Realtime transcripts → transcripts/*.txt,*.json
                                                 │
                                   scripts/analyze.py (LLM judge) → BUG_REPORT.md
@@ -55,11 +55,17 @@ One command boots the bridge server and places a call for every scenario:
 python scripts/run_batch.py            # all 12 scenarios  (or: make run)
 ```
 
-Then draft the bug report from the transcripts:
+Pull the clean recordings, then draft the bug report from the transcripts:
 
 ```bash
-python scripts/analyze.py              # writes BUG_REPORT.md   (or: make analyze)
+python scripts/fetch_recordings.py     # clean stereo mp3s from Twilio  (or: make fetch)
+python scripts/analyze.py              # writes BUG_REPORT.md            (or: make analyze)
 ```
+
+> Why a separate fetch step: the live bridge taps media frames and reconstructs a preview mp3
+> by arrival time, which can pick up network-jitter artifacts. Twilio also records each call
+> server-side (dual-channel), and `fetch_recordings.py` downloads that cleanly-timed copy and
+> re-encodes it — that's the audio you submit.
 
 Useful subsets / single calls:
 
@@ -74,7 +80,7 @@ python scripts/run_call.py --scenario 9 --index 1  # one call (server must be ru
 
 ## Output
 
-- `recordings/call-NN.mp3` and `.ogg` — stereo: left = PGAI agent, right = our patient bot
+- `recordings/call-NN.mp3` — clean stereo: left = PGAI agent, right = our patient bot
 - `transcripts/transcript-NN.txt` / `.json` — timestamped, both sides
 - `BUG_REPORT.md` — auto‑drafted findings to curate
 

@@ -79,7 +79,7 @@ async def media_stream(twilio_ws: WebSocket) -> None:
                 scenario = SCENARIOS.get(params.get("scenario_id", "1"))
                 call_index = int(params.get("call_index", "1"))
                 recorder = CallRecorder(call_index)
-                transcript = TranscriptLog(call_index, scenario)
+                transcript = TranscriptLog(call_index, scenario, call_sid=state["call_sid"])
                 openai_ws = await connect_openai()
                 await openai_ws.send(json.dumps(session_update_payload(scenario)))
                 asyncio.create_task(openai_to_twilio())

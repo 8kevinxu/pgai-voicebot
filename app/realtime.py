@@ -98,9 +98,10 @@ class TranscriptLog:
     AGENT = "agent"      # the PGAI receptionist (our model's audio input)
     PATIENT = "patient"  # our bot (our model's audio output)
 
-    def __init__(self, call_index: int, scenario: Scenario):
+    def __init__(self, call_index: int, scenario: Scenario, call_sid: str | None = None):
         self.call_index = call_index
         self.scenario = scenario
+        self.call_sid = call_sid
         self._start = time.monotonic()
         self.lines: list[dict] = []
 
@@ -122,6 +123,7 @@ class TranscriptLog:
         stem = f"transcript-{self.call_index:02d}"
         data = {
             "call_index": self.call_index,
+            "call_sid": self.call_sid,
             "scenario_id": self.scenario.id,
             "scenario_title": self.scenario.title,
             "goal": self.scenario.goal,

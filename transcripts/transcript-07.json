@@ -1,5 +1,6 @@
 {
   "call_index": 7,
+  "call_sid": "CAdb12f2e4c7784f0453ad7e63f86de7af",
   "scenario_id": "7",
   "scenario_title": "Insurance accepted question",
   "goal": "Confirm whether the clinic accepts Blue Cross Blue Shield.",

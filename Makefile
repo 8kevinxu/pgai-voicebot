@@ -1,4 +1,4 @@
-.PHONY: install server tunnel run analyze
+.PHONY: install server tunnel run fetch analyze
 
 install:
 	pip install -r requirements.txt
@@ -14,6 +14,10 @@ tunnel:
 # One command: boot server + place every scenario call.
 run:
 	python scripts/run_batch.py
+
+# Pull clean dual-channel recordings from Twilio.
+fetch:
+	python scripts/fetch_recordings.py
 
 # Draft the bug report from the transcripts.
 analyze:

@@ -1,5 +1,6 @@
 {
   "call_index": 4,
+  "call_sid": "CA5cb57fe35a42d70f603993d5b4292838",
   "scenario_id": "4",
   "scenario_title": "Medication refill request",
   "goal": "Request a refill of lisinopril.",
