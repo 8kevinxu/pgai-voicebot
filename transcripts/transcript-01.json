@@ -17,11 +17,6 @@
       "text": "Oh, hi. Yes, this is Maria Alvarez. I'm calling because I've got some mild knee pain, and I'd like to book an appointment. Ideally, sometime in the afternoon on a weekday. Could you help me with that?"
     },
     {
-      "t": 17.97,
-      "role": "agent",
-      "text": "MBC \ub274\uc2a4 \uc774\ub355\uc601\uc785\ub2c8\ub2e4."
-    },
-    {
       "t": 24.07,
       "role": "agent",
       "text": "Please provide your date of birth."
@@ -42,11 +37,6 @@
       "text": "Thanks. I'd like to schedule the earliest available appointment, preferably in the afternoon on a weekday. What do you have open?"
     },
     {
-      "t": 44.67,
-      "role": "agent",
-      "text": "Thank you."
-    },
-    {
       "t": 51.7,
       "role": "agent",
       "text": "Just to confirm, you'd like to book a general office visit for your mild knee pain. Is that correct?"
@@ -59,7 +49,7 @@
     {
       "t": 61.37,
       "role": "agent",
-      "text": "We have afternoon openings this Friday, June 26. Would you like to book 2 p.m., 2.30 p.m., or 3 p.m. with Dr. Z. Bignew-Lukosky?"
+      "text": "We have afternoon openings this Friday, June 26th. Would you like to book 2 p.m., 2.30 p.m., or 3 p.m. with Dr. Z. Bignew-Lukosky?"
     },
     {
       "t": 74.7,

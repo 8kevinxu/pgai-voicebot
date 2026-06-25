@@ -11,7 +11,7 @@ Goal: Start booking a physical, interrupt the agent mid-sentence, then switch to
 [1:04] PATIENT (bot): Yeah, it's April 12th, 1985.
 [1:09] AGENT (PGAI): Would you like to use your phone number to look up your record? If so, please provide the number you have on file with us. If you're not sure, I can confirm your name and date of birth again. Which would you prefer? If so, please provide the number you have on file with us. If you're not sure, I can confirm your name and date of birth again.
 [1:24] PATIENT (bot): I'll go with the phone number. It's 555-298-7712.
-[1:31] AGENT (PGAI): I have your phone number as 555-298-7712 and your date of birth as April 12th, 1985. Is that correct?
+[1:31] AGENT (PGAI): I have your phone number as 555-298-7712 and your date of birth as April 12, 1985. Is that correct?
 [1:44] PATIENT (bot): Yeah, that's correct. So about that refill, I need a refill for my blood pressure medication.
 [1:51] AGENT (PGAI): Thanks for letting me know. Can you please provide the full name and date of birth of the person who needs the blood pressure medication refill?
 [2:01] PATIENT (bot): Yeah, it's still me, Grace Liu, April 12th, 1985.

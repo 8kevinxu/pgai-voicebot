@@ -59,6 +59,16 @@ def silence_intervals(path: Path, noise_db: int = -40, min_dur: float = 0.4) -> 
     return intervals
 
 
+def mean_volume_db(path: Path) -> float:
+    """Mean volume of a clip in dBFS (via ffmpeg volumedetect). Quiet noise ~ -50; speech ~ -25."""
+    res = subprocess.run(
+        ["ffmpeg", "-i", str(path), "-af", "volumedetect", "-f", "null", "-"],
+        capture_output=True, text=True,
+    )
+    m = re.search(r"mean_volume:\s*(-?[0-9.]+) dB", res.stderr)
+    return float(m.group(1)) if m else -99.0
+
+
 def audio_duration(path: Path) -> float:
     res = subprocess.run(
         ["ffprobe", "-v", "error", "-show_entries", "format=duration",
@@ -96,11 +106,17 @@ def transcribe(client: OpenAI, path: Path) -> list[dict]:
     """Return speaker turns for one (single-speaker) channel.
 
     These channels are mostly silence (the other speaker is on the other channel), and Whisper
-    hallucinates filler text over long silences. So instead of transcribing the whole channel,
-    we detect the voiced windows (ffmpeg silencedetect) and transcribe only those slices — no
-    silence for Whisper to invent words over. Each window's onset is an accurate timestamp, so
-    cross-channel ordering is correct and each utterance stays whole and well-punctuated.
+    hallucinates filler text over silence/noise. We defend in three layers:
+      * transcribe only voiced windows (ffmpeg silencedetect), not the whole channel;
+      * skip windows that are too quiet to be real speech (a faint noise blip that slipped
+        through silencedetect still makes Whisper hallucinate, e.g. Korean news sign-offs);
+      * drop slices Whisper itself flags as non-speech (high no_speech_prob).
+    Each window's onset is an accurate timestamp, so cross-channel ordering is correct and each
+    utterance stays whole and well-punctuated.
     """
+    MIN_DB = -45.0          # below this a window is noise/silence, not speech
+    MAX_NO_SPEECH = 0.6     # Whisper's own non-speech probability cutoff
+
     turns: list[dict] = []
     for start, end in speech_windows(path):
         with tempfile.TemporaryDirectory() as td:
@@ -109,10 +125,18 @@ def transcribe(client: OpenAI, path: Path) -> list[dict]:
                 ["ffmpeg", "-y", "-ss", f"{start:.2f}", "-to", f"{end:.2f}", "-i", str(path), str(clip)],
                 check=True, capture_output=True,
             )
+            if mean_volume_db(clip) < MIN_DB:
+                continue
             with clip.open("rb") as f:
-                text = client.audio.transcriptions.create(
-                    model="whisper-1", file=f, response_format="text",
-                ).strip()
+                resp = client.audio.transcriptions.create(
+                    model="whisper-1", file=f, response_format="verbose_json",
+                )
+        segs = resp.segments or []
+        if segs:
+            avg_no_speech = sum(float(_attr(s, "no_speech_prob")) for s in segs) / len(segs)
+            if avg_no_speech > MAX_NO_SPEECH:
+                continue
+        text = (resp.text or "").strip()
         if text and re.search(r"[A-Za-z0-9]", text):
             turns.append({"start": start, "end": end, "text": text})
     return turns
