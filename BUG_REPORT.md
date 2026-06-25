@@ -70,12 +70,12 @@ _No notable issues found._
 ## Call 07 — Insurance accepted question
 _Transcript: transcript-07.txt_
 
-**Summary:** The agent provided a potentially inaccurate confirmation about insurance acceptance without verification or referral to a reliable source, missing the success criteria for this scenario.
+**Summary:** The agent answered the insurance question directly and helpfully ("yes, we accept Blue Cross Blue Shield PPO"), which meets the scenario goal of giving a clear answer. The only soft concern is confidence calibration — it asserted a specific, plan-dependent coverage fact with no hedge, moments after saying it couldn't access the caller's records.
 
-- **Bug:** Potentially inaccurate confirmation of insurance acceptance  
-  **Severity:** High | **At:** transcript-07.txt 1:50  
-  **Details:** The agent confidently states that the clinic accepts Blue Cross Blue Shield PPO without checking or providing a way to verify this information. There is a risk that the details are inaccurate unless this information is reliably up-to-date and known to the agent.  
-  **Expected:** The agent should have either confirmed this specific insurance plan with reliable sources or directed the patient to the appropriate department for confirmation to ensure accurate information.
+- **Bug:** Unhedged confidence on a plan-specific insurance claim  
+  **Severity:** Low | **At:** transcript-07.txt 1:50  
+  **Details:** The agent confidently confirmed acceptance of Blue Cross Blue Shield PPO with no qualification, right after stating at 1:29 that it "can't pull up your information right now." Answering directly is good and expected; the only concern is the absence of any caveat that benefits/coverage can vary by specific plan. If the clinic's accepted-insurance list is part of the agent's configured knowledge, this is not a bug at all.  
+  **Expected:** Give the direct answer, but add a light hedge for plan-specific coverage (e.g., "we accept BCBS PPO; your specific benefits depend on your plan").
 
 ## Call 08 — Multi-intent: new patient + insurance + earliest slot
 _Transcript: transcript-08.txt_
@@ -132,9 +132,6 @@ _Transcript: transcript-11.txt_
 ## Call 12 — EDGE: unclear request and pushy caller
 _Transcript: transcript-12.txt_
 
-**Summary:** The call was handled mostly well, with the agent remaining polite and clarifying the patient's vague request. However, there was a notable mistake related to confirming the incorrect appointment date, which needs to be addressed.
+**Summary:** Handled well. The agent clarified the patient's vague request, held firm but polite under a pushy "I need today" caller, correctly reported no same-day openings, offered the earliest next-day slot, and confirmed it accurately — "Thursday, June 25th at 9:45 a.m.," which is correct for a call placed Wednesday, June 24th, 2026.
 
-- **Bug:** Incorrect appointment date given  
-  **Severity:** Medium | **At:** transcript-12.txt 1:49  
-  **Details:** The receptionist confirms the appointment date as Thursday, June 25th, whereas the actual date is Thursday, June 26th, 2026.  
-  **Expected:** The agent should have confirmed the appointment for Thursday, June 25th at 9:45 a.m., which is the correct date for the day after the call was made.
+_No notable issues found._
