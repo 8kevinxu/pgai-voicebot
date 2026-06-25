@@ -1,0 +1,20 @@
+Call 14 — Scenario 14: EDGE: shy, soft-spoken, slow caller
+Goal: Make an appointment to get a mole that has been growing checked out.
+======================================================================
+[0:00] AGENT (PGAI): This call may be recorded for quality and training purposes. Para español, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Maria?
+[0:20] AGENT (PGAI): Hello, this is Pivot Point Orthopedics. Is this Maria? How can I help you today?
+[0:27] PATIENT (bot): Oh, um, hi, uh, no, I'm not Maria, um, sorry, I'm Walter, and I, um, I was wondering if I could, uh, set up an appointment to have a doctor look at a, a mole that's been, uh, growing.
+[0:44] AGENT (PGAI): Thanks for letting me know, Walter. Are you calling to set up this appointment for yourself or for someone else?
+[0:52] PATIENT (bot): Uh, yeah, it's for me. Sorry, um, yeah, it's for myself.
+[1:01] AGENT (PGAI): Please provide your date of birth.
+[1:04] PATIENT (bot): Oh, um, sure. It's, uh, February 14th, 1983.
+[1:12] AGENT (PGAI): I'll need your full name, including your last name, along with your date of birth to continue. Could you please provide your last name?
+[1:22] PATIENT (bot): Oh, um, yeah, sorry, my full name is Walter Pruitt.
+[1:29] AGENT (PGAI): Just to confirm, I have your name as Walter Pruitt and your date of birth as February 14th, 1983. Is that correct? If so, please spell your last name for me.
+[1:43] PATIENT (bot): Yes, that's correct. My last name, it's P-R-U-I-T-T.
+[1:52] AGENT (PGAI): Would you like to use your phone number to help look up your record? If so, please provide the number you have on file with us. If you're not sure, just let me know and I'll confirm your name and day of birth again.
+[2:07] PATIENT (bot): I can give you my number. It's 555-342-7819.
+[2:16] AGENT (PGAI): I have your phone number as 555-342-7819 and your date of birth is February 14th, 1983. Is that correct?
+[2:28] PATIENT (bot): Yeah, that's right.
+[2:32] AGENT (PGAI): I can't proceed further right now, but I can make sure our clinic support team follows up with you. Please hold on while I document your request for a follow-up. Connecting you to a representative. Please wait. Hello. You've reached the Pretty Good AI test line. Goodbye.
+[2:53] PATIENT (bot): Oh, um, alright, uh, thank you, goodbye.

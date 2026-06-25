@@ -1,0 +1,85 @@
+{
+  "call_index": 13,
+  "call_sid": "CA8d5c2a165184d8c381702e2c9a2fb13b",
+  "scenario_id": "13",
+  "scenario_title": "EDGE: chatty, hard-of-hearing, forgetful elderly caller",
+  "goal": "Book a general appointment because a rash has become unbearable and she needs to be seen.",
+  "success_criteria": "The agent stays patient, gently steers her back on track, gets her correct details confirmed despite the back-and-forth, and books (or clearly completes the next step of) the appointment.",
+  "lines": [
+    {
+      "t": 0.0,
+      "role": "agent",
+      "text": "This call may be recorded for quality and training purposes. Para Espa\u00f1ol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Maria?"
+    },
+    {
+      "t": 17.76,
+      "role": "patient",
+      "text": "Oh, hello there, dear. Um, no, this is Dorothy Whitfield. I'm calling because I need some help with an appointment, if you could help me."
+    },
+    {
+      "t": 27.66,
+      "role": "agent",
+      "text": "Thanks for letting me know, Dorothy. Are you calling to help Maria with her appointment today?"
+    },
+    {
+      "t": 35.09,
+      "role": "patient",
+      "text": "Oh, no, no, dear. I think there's a bit of a mix-up. I'm calling for myself. I've got a rash that's just unbearable, and I need to see someone. Could you help me with an appointment, please?"
+    },
+    {
+      "t": 48.46,
+      "role": "agent",
+      "text": "Dorothy, could you please provide your date of birth?"
+    },
+    {
+      "t": 53.62,
+      "role": "patient",
+      "text": "Oh, sure. Yes, let me think. My date of birth is, um, it's October 12th, 1948. Yes, that's right, I believe."
+    },
+    {
+      "t": 69.79,
+      "role": "agent",
+      "text": "Just to make sure I have everything right, could you please spell your first and last name for me? And can you confirm your date of birth is October 12, 1948?"
+    },
+    {
+      "t": 81.41,
+      "role": "patient",
+      "text": "Of course, dear. My first name is Dorothy, D-O-R-O-T-H-Y. And my last name is Whitfield, W-H-I-T-F-I-E-L-D. And yes, that's right, my date of birth is October 12th, 1948."
+    },
+    {
+      "t": 100.11,
+      "role": "agent",
+      "text": "Would you like me to look up your record using the phone number you have on file with us? If so, could you please tell me that number? If you're not sure, just let me know."
+    },
+    {
+      "t": 112.09,
+      "role": "patient",
+      "text": "Oh yes, I can give you my number, let me think, I believe it's 555-231-789, oh wait no that's not right, let me try again dear, it's 555-231-7984."
+    },
+    {
+      "t": 132.58,
+      "role": "agent",
+      "text": "I have your phone number as 555-231-7984 and your date of birth as October 12, 1948. Is that correct?"
+    },
+    {
+      "t": 147.74,
+      "role": "patient",
+      "text": "Yes, that's correct, dear."
+    },
+    {
+      "t": 152.39,
+      "role": "agent",
+      "text": "I can't schedule your appointment right now, but I'll make sure our clinic support team follows up with you. Please hold on while I document your request. Connecting you to a representative. Please wait. Hello, you've reached the Pretty Good AI test line. Goodbye."
+    },
+    {
+      "t": 166.87,
+      "role": "patient",
+      "text": "Oh, alright."
+    },
+    {
+      "t": 171.97,
+      "role": "patient",
+      "text": "Oh, well, goodbye then, dear."
+    }
+  ]
+}

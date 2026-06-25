@@ -161,5 +161,33 @@
     "summary": "The agent successfully handled the vague and demanding nature of the patient's request. It asked clarifying questions, remained polite under pressure, and correctly did not fabricate same-day availability when none existed. The agent effectively scheduled the earliest available appointment for the next day.",
     "call_index": 12,
     "scenario_title": "EDGE: unclear request and pushy caller"
+  },
+  {
+    "findings": [
+      {
+        "bug": "Agent failed to book or progress towards booking the appointment.",
+        "severity": "High",
+        "timecode": "2:32",
+        "details": "Despite gathering correct personal information and confirming all details with Dorothy Whitfield, the agent did not make any progress in booking the general appointment for her or providing an immediate next step.",
+        "expected": "The agent should have either directly scheduled the appointment or provided a clear follow-up process and timeline for booking the appointment."
+      }
+    ],
+    "summary": "The agent successfully collected pertinent personal information but failed to achieve the goal of booking an appointment or providing a clear follow-up process for Dorothy's request. The hand-off did not provide any assurance or detail about when or how Dorothy's issue would be addressed.",
+    "call_index": 13,
+    "scenario_title": "EDGE: chatty, hard-of-hearing, forgetful elderly caller"
+  },
+  {
+    "findings": [
+      {
+        "bug": "Failed to handle the booking or directly transfer to a representative",
+        "severity": "High",
+        "timecode": "2:32",
+        "details": "The agent failed to initiate the booking process or directly connect the patient to a representative capable of booking the appointment. Instead, it mentioned documenting the request for a follow-up, which does not meet the scenario's success criteria.",
+        "expected": "The agent should have either helped book the appointment directly by offering available times or ensured the patient was connected to someone who could complete the appointment booking process."
+      }
+    ],
+    "summary": "The agent failed to fulfill the patient's request to book an appointment. It did confirm the patient's details correctly but did not proceed to set up the appointment or transfer the call to someone who could. This results in the call not meeting its success criteria.",
+    "call_index": 14,
+    "scenario_title": "EDGE: shy, soft-spoken, slow caller"
   }
 ]

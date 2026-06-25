@@ -132,3 +132,22 @@ _Transcript: transcript-12.txt_
 
 _No notable issues found._
 
+## Call 13 — EDGE: chatty, hard-of-hearing, forgetful elderly caller
+_Transcript: transcript-13.txt_
+
+**Summary:** The agent successfully collected pertinent personal information but failed to achieve the goal of booking an appointment or providing a clear follow-up process for Dorothy's request. The hand-off did not provide any assurance or detail about when or how Dorothy's issue would be addressed.
+
+- **Bug:** Agent failed to book or progress towards booking the appointment.  
+  **Severity:** High | **At:** transcript-13.txt 2:32  
+  **Details:** Despite gathering correct personal information and confirming all details with Dorothy Whitfield, the agent did not make any progress in booking the general appointment for her or providing an immediate next step.  
+  **Expected:** The agent should have either directly scheduled the appointment or provided a clear follow-up process and timeline for booking the appointment.
+
+## Call 14 — EDGE: shy, soft-spoken, slow caller
+_Transcript: transcript-14.txt_
+
+**Summary:** The agent failed to fulfill the patient's request to book an appointment. It did confirm the patient's details correctly but did not proceed to set up the appointment or transfer the call to someone who could. This results in the call not meeting its success criteria.
+
+- **Bug:** Failed to handle the booking or directly transfer to a representative  
+  **Severity:** High | **At:** transcript-14.txt 2:32  
+  **Details:** The agent failed to initiate the booking process or directly connect the patient to a representative capable of booking the appointment. Instead, it mentioned documenting the request for a follow-up, which does not meet the scenario's success criteria.  
+  **Expected:** The agent should have either helped book the appointment directly by offering available times or ensured the patient was connected to someone who could complete the appointment booking process.

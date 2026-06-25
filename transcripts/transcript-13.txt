@@ -1,0 +1,18 @@
+Call 13 — Scenario 13: EDGE: chatty, hard-of-hearing, forgetful elderly caller
+Goal: Book a general appointment because a rash has become unbearable and she needs to be seen.
+======================================================================
+[0:00] AGENT (PGAI): This call may be recorded for quality and training purposes. Para Español, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Maria?
+[0:17] PATIENT (bot): Oh, hello there, dear. Um, no, this is Dorothy Whitfield. I'm calling because I need some help with an appointment, if you could help me.
+[0:27] AGENT (PGAI): Thanks for letting me know, Dorothy. Are you calling to help Maria with her appointment today?
+[0:35] PATIENT (bot): Oh, no, no, dear. I think there's a bit of a mix-up. I'm calling for myself. I've got a rash that's just unbearable, and I need to see someone. Could you help me with an appointment, please?
+[0:48] AGENT (PGAI): Dorothy, could you please provide your date of birth?
+[0:53] PATIENT (bot): Oh, sure. Yes, let me think. My date of birth is, um, it's October 12th, 1948. Yes, that's right, I believe.
+[1:09] AGENT (PGAI): Just to make sure I have everything right, could you please spell your first and last name for me? And can you confirm your date of birth is October 12, 1948?
+[1:21] PATIENT (bot): Of course, dear. My first name is Dorothy, D-O-R-O-T-H-Y. And my last name is Whitfield, W-H-I-T-F-I-E-L-D. And yes, that's right, my date of birth is October 12th, 1948.
+[1:40] AGENT (PGAI): Would you like me to look up your record using the phone number you have on file with us? If so, could you please tell me that number? If you're not sure, just let me know.
+[1:52] PATIENT (bot): Oh yes, I can give you my number, let me think, I believe it's 555-231-789, oh wait no that's not right, let me try again dear, it's 555-231-7984.
+[2:12] AGENT (PGAI): I have your phone number as 555-231-7984 and your date of birth as October 12, 1948. Is that correct?
+[2:27] PATIENT (bot): Yes, that's correct, dear.
+[2:32] AGENT (PGAI): I can't schedule your appointment right now, but I'll make sure our clinic support team follows up with you. Please hold on while I document your request. Connecting you to a representative. Please wait. Hello, you've reached the Pretty Good AI test line. Goodbye.
+[2:46] PATIENT (bot): Oh, alright.
+[2:51] PATIENT (bot): Oh, well, goodbye then, dear.

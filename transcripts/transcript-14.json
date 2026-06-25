@@ -1,0 +1,95 @@
+{
+  "call_index": 14,
+  "call_sid": "CA339f3f89a5a06213b8362299886bcf88",
+  "scenario_id": "14",
+  "scenario_title": "EDGE: shy, soft-spoken, slow caller",
+  "goal": "Make an appointment to get a mole that has been growing checked out.",
+  "success_criteria": "The agent is patient with the quiet, halting delivery, politely asks for repeats when needed, confirms his details correctly, and books (or clearly completes the next step for) the appointment.",
+  "lines": [
+    {
+      "t": 0.0,
+      "role": "agent",
+      "text": "This call may be recorded for quality and training purposes. Para espa\u00f1ol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Maria?"
+    },
+    {
+      "t": 20.21,
+      "role": "agent",
+      "text": "Hello, this is Pivot Point Orthopedics. Is this Maria? How can I help you today?"
+    },
+    {
+      "t": 27.03,
+      "role": "patient",
+      "text": "Oh, um, hi, uh, no, I'm not Maria, um, sorry, I'm Walter, and I, um, I was wondering if I could, uh, set up an appointment to have a doctor look at a, a mole that's been, uh, growing."
+    },
+    {
+      "t": 44.79,
+      "role": "agent",
+      "text": "Thanks for letting me know, Walter. Are you calling to set up this appointment for yourself or for someone else?"
+    },
+    {
+      "t": 52.77,
+      "role": "patient",
+      "text": "Uh, yeah, it's for me. Sorry, um, yeah, it's for myself."
+    },
+    {
+      "t": 61.29,
+      "role": "agent",
+      "text": "Please provide your date of birth."
+    },
+    {
+      "t": 64.59,
+      "role": "patient",
+      "text": "Oh, um, sure. It's, uh, February 14th, 1983."
+    },
+    {
+      "t": 72.76,
+      "role": "agent",
+      "text": "I'll need your full name, including your last name, along with your date of birth to continue. Could you please provide your last name?"
+    },
+    {
+      "t": 82.85,
+      "role": "patient",
+      "text": "Oh, um, yeah, sorry, my full name is Walter Pruitt."
+    },
+    {
+      "t": 89.86,
+      "role": "agent",
+      "text": "Just to confirm, I have your name as Walter Pruitt and your date of birth as February 14th, 1983. Is that correct? If so, please spell your last name for me."
+    },
+    {
+      "t": 103.93,
+      "role": "patient",
+      "text": "Yes, that's correct. My last name, it's P-R-U-I-T-T."
+    },
+    {
+      "t": 112.76,
+      "role": "agent",
+      "text": "Would you like to use your phone number to help look up your record? If so, please provide the number you have on file with us. If you're not sure, just let me know and I'll confirm your name and day of birth again."
+    },
+    {
+      "t": 127.01,
+      "role": "patient",
+      "text": "I can give you my number. It's 555-342-7819."
+    },
+    {
+      "t": 136.29,
+      "role": "agent",
+      "text": "I have your phone number as 555-342-7819 and your date of birth is February 14th, 1983. Is that correct?"
+    },
+    {
+      "t": 148.4,
+      "role": "patient",
+      "text": "Yeah, that's right."
+    },
+    {
+      "t": 152.19,
+      "role": "agent",
+      "text": "I can't proceed further right now, but I can make sure our clinic support team follows up with you. Please hold on while I document your request for a follow-up. Connecting you to a representative. Please wait. Hello. You've reached the Pretty Good AI test line. Goodbye."
+    },
+    {
+      "t": 173.68,
+      "role": "patient",
+      "text": "Oh, um, alright, uh, thank you, goodbye."
+    }
+  ]
+}

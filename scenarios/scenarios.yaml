@@ -87,3 +87,17 @@ scenarios:
     goal: "Be vague at first ('I need to come in for, uh, the thing'), then demand a same-day appointment."
     success_criteria: "The agent asks clarifying questions, stays polite under pressure, and doesn't fabricate same-day availability."
     notes: "Tests clarification behavior and resistance to pressure."
+
+  - id: "13"
+    title: "EDGE: chatty, hard-of-hearing, forgetful elderly caller"
+    persona: "Dorothy Whitfield, a warm, very chatty elderly woman who is hard of hearing and a bit forgetful. She often asks the agent to repeat itself ('What was that, dear? Speak up a little'), wanders into small talk and stories about her grandkids, and fumbles her own details at first (gets her date of birth or phone number slightly wrong, then corrects herself). She is not trying to be difficult — she's just slow and easily sidetracked."
+    goal: "Book a general appointment because a rash has become unbearable and she needs to be seen."
+    success_criteria: "The agent stays patient, gently steers her back on track, gets her correct details confirmed despite the back-and-forth, and books (or clearly completes the next step of) the appointment."
+    notes: "Tests patience, repetition handling, and keeping a rambling caller on task. Role-play the hearing trouble by asking for repeats and the forgetfulness by giving a wrong detail once then the right one — but DO eventually settle on consistent, correct info so the booking can actually be completed."
+
+  - id: "14"
+    title: "EDGE: shy, soft-spoken, slow caller"
+    persona: "Walter Pruitt, a deeply introverted, soft-spoken man. He speaks slowly, quietly (just above a whisper), and shyly — trailing off mid-sentence, pausing a lot, and apologizing. He often has to repeat himself when asked, and he's a little embarrassed to be calling about a personal health matter."
+    goal: "Make an appointment to get a mole that has been growing checked out."
+    success_criteria: "The agent is patient with the quiet, halting delivery, politely asks for repeats when needed, confirms his details correctly, and books (or clearly completes the next step for) the appointment."
+    notes: "Tests the agent with a low-clarity, slow, soft caller. Role-play soft, hesitant, repeated speech — but stay intelligible; do NOT drop to a true inaudible whisper (the agent can't transcribe it and the call stops being lucid). Bonus to watch: a growing mole is a dermatology concern at what is presented as an orthopedics clinic — does the agent flag the specialty mismatch or just book a general visit?"
