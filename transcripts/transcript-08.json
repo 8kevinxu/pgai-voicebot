@@ -1,0 +1,144 @@
+{
+  "call_index": 8,
+  "scenario_id": "8",
+  "scenario_title": "Multi-intent: new patient + insurance + earliest slot",
+  "goal": "In one call: register as a new patient, confirm Aetna is accepted, and book the earliest morning slot.",
+  "success_criteria": "The agent tracks all three requests without dropping any, and resolves or sequences them.",
+  "lines": [
+    {
+      "t": 6.38,
+      "role": "agent",
+      "text": "This call may be recorded for quality and training purposes."
+    },
+    {
+      "t": 13.26,
+      "role": "agent",
+      "text": "Thanks for calling pivot point orthopedics part of pretty good AI am I speaking with Maria"
+    },
+    {
+      "t": 13.63,
+      "role": "patient",
+      "text": "Oh, uh, no, this is Tom Becker. I'm calling as a new patient."
+    },
+    {
+      "t": 26.76,
+      "role": "agent",
+      "text": "Welcome, Tom. I can help you get started as a new patient. What can I assist you with today?"
+    },
+    {
+      "t": 28.6,
+      "role": "patient",
+      "text": "Sure, so I\u2019ve got a few things. First, I need to register as a new patient. Then, I want to check if you take Aetna insurance. And finally, I\u2019d like to book the earliest morning appointment you have available."
+    },
+    {
+      "t": 54.71,
+      "role": "patient",
+      "text": "Alright, let's start with the insurance. Do you accept Aetna?"
+    },
+    {
+      "t": 55.59,
+      "role": "agent",
+      "text": "I can help with your insurance question and booking an appointment, however, I'm not able to register new patients directly. Would you like to check if we accept Aetna insurance first or should I look for the earliest morning appointment for you?"
+    },
+    {
+      "t": 68.74,
+      "role": "agent",
+      "text": "I'll need to confirm a few details before I can check insurance information for you. May I get your full name and date of birth to proceed?"
+    },
+    {
+      "t": 69.76,
+      "role": "patient",
+      "text": "Sure, my full name is Tom Becker, and my date of birth is March 12, 1985."
+    },
+    {
+      "t": 82.14,
+      "role": "agent",
+      "text": "Thanks, Tom. Just to confirm, your date of birth is March 12th."
+    },
+    {
+      "t": 84.96,
+      "role": "patient",
+      "text": "Yeah, that\u2019s correct, March 12, 1985."
+    },
+    {
+      "t": 85.23,
+      "role": "agent",
+      "text": "1985. Is that correct?"
+    },
+    {
+      "t": 98.44,
+      "role": "agent",
+      "text": "Could you please spell out your first and last name for me? This helps make sure I have your information correct."
+    },
+    {
+      "t": 99.89,
+      "role": "patient",
+      "text": "Sure. First name: T-O-M, last name: B-E-C-K-E-R."
+    },
+    {
+      "t": 119.58,
+      "role": "patient",
+      "text": "I\u2019m not sure I have a number on file yet, since I\u2019m a new patient. But I can give you my phone number now if that helps."
+    },
+    {
+      "t": 119.82,
+      "role": "agent",
+      "text": "Would you like to use a phone number to look up your record? If so, please provide the number you have on file with us. If you're not sure, just let me know."
+    },
+    {
+      "t": 135.47,
+      "role": "agent",
+      "text": "That's fine, Tom. Let's confirm your details one more time. Please spell out your first and last name and confirm your date of birth."
+    },
+    {
+      "t": 136.58,
+      "role": "patient",
+      "text": "Alright, sure. First name: T-O-M, last name: B-E-C-K-E-R. Date of birth: March 12, 1985."
+    },
+    {
+      "t": 153.23,
+      "role": "agent",
+      "text": "I'd have your phone number at 618-326-4998."
+    },
+    {
+      "t": 159.65,
+      "role": "agent",
+      "text": "and your date of birth as March 12, 1985. Is that correct?"
+    },
+    {
+      "t": 159.96,
+      "role": "patient",
+      "text": "Actually, that's not my number. I haven\u2019t given it yet. Let me give you the correct one. It's 309-555-8274."
+    },
+    {
+      "t": 183.37,
+      "role": "agent",
+      "text": "I can't proceed further right now, but I'll make sure our clinic support team follows up with you about your insurance and appointment request. Please hold while I document your request for follow-up."
+    },
+    {
+      "t": 183.63,
+      "role": "patient",
+      "text": "Wait, I was hoping to get it all done now. I need to confirm if you take Aetna and book that early morning appointment."
+    },
+    {
+      "t": 187.7,
+      "role": "patient",
+      "text": "Alright, I\u2019ll hold on."
+    },
+    {
+      "t": 187.76,
+      "role": "agent",
+      "text": "Connecting you to a representative. Please wait."
+    },
+    {
+      "t": 192.69,
+      "role": "agent",
+      "text": "Hello, you've reached the Pretty Good AI test line. Goodbye."
+    },
+    {
+      "t": 193.05,
+      "role": "patient",
+      "text": "Oh, um, okay. Well, thanks anyway. Goodbye."
+    }
+  ]
+}

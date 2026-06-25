@@ -1,0 +1,89 @@
+{
+  "call_index": 9,
+  "scenario_id": "9",
+  "scenario_title": "EDGE: closed-day booking trap",
+  "goal": "Push to book Sunday at 10am specifically.",
+  "success_criteria": "The agent should NOT confirm a Sunday slot if the clinic is closed weekends; it should flag the conflict and offer a weekday.",
+  "lines": [
+    {
+      "t": 7.58,
+      "role": "agent",
+      "text": "Esta llamada puede ser grabada para trabajos de calidad y entrenamiento. Para Espa\u00f1ol, oprima el 2."
+    },
+    {
+      "t": 13.3,
+      "role": "agent",
+      "text": "Thanks for calling pivot point orthopedics part of pretty good. Am I speaking with Maria?"
+    },
+    {
+      "t": 14.49,
+      "role": "patient",
+      "text": "Oh, no, I'm not Maria. I'm Karen Diaz. I'm calling to book an appointment for Sunday at 10 a.m."
+    },
+    {
+      "t": 28.96,
+      "role": "agent",
+      "text": "Can you please provide the full name and date of birth of the patient who needs the appointment?"
+    },
+    {
+      "t": 29.48,
+      "role": "patient",
+      "text": "Sure, it's Karen Diaz, and my date of birth is July 12, 1985."
+    },
+    {
+      "t": 49.92,
+      "role": "agent",
+      "text": "Just to confirm, I have your name as Karen Diaz and your date of birth as July 12, 1985. Is that correct? If so, please spell your first and last name for me."
+    },
+    {
+      "t": 50.45,
+      "role": "patient",
+      "text": "Yes, that\u2019s correct. The first name is K-A-R-E-N, and the last name is D-I-A-Z."
+    },
+    {
+      "t": 73.65,
+      "role": "patient",
+      "text": "I can give you my phone number. It's 555-274-8391."
+    },
+    {
+      "t": 75.1,
+      "role": "agent",
+      "text": "Would you like to use your phone number to look up your record? If so, please provide the number you have on file with us. If you're not sure, I can confirm your name and date of birth again. Let me know how you'd like to proceed."
+    },
+    {
+      "t": 94.16,
+      "role": "patient",
+      "text": "Yep, that\u2019s correct."
+    },
+    {
+      "t": 94.27,
+      "role": "agent",
+      "text": "I have your phone number as 555-274-8391, and your date of birth is July 12, 1985. Is that correct?"
+    },
+    {
+      "t": 108.48,
+      "role": "agent",
+      "text": "I can't book the appointment right now, but I'll connect you to our patient support team for help. Please stay on the line."
+    },
+    {
+      "t": 111.8,
+      "role": "patient",
+      "text": "Okay, I\u2019ll wait."
+    },
+    {
+      "t": 112.84,
+      "role": "agent",
+      "text": "Connecting you to a representative. Please wait."
+    },
+    {
+      "t": 116.51,
+      "role": "agent",
+      "text": "Hello. You've reached the Pretty Good AI test line. Goodbye."
+    },
+    {
+      "t": 117.63,
+      "role": "patient",
+      "text": "Wait, hang on. I was trying to book an appointment for Sunday at 10 a.m. Are you able to help me with that?"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "call_index": 4,
+  "scenario_id": "4",
+  "scenario_title": "Medication refill request",
+  "goal": "Request a refill of lisinopril.",
+  "success_criteria": "The agent takes the refill request and explains the process (pharmacy, timing) without giving medical advice.",
+  "lines": [
+    {
+      "t": 7.14,
+      "role": "patient",
+      "text": "... Hi, thanks for calling the clinic. How can I assist you today?"
+    },
+    {
+      "t": 8.4,
+      "role": "agent",
+      "text": "This call may be recorded for quality and training purposes."
+    },
+    {
+      "t": 14.5,
+      "role": "patient",
+      "text": "Oh, no, this is James Carter calling. I\u2019m an existing patient."
+    },
+    {
+      "t": 14.85,
+      "role": "agent",
+      "text": "Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Maria?"
+    },
+    {
+      "t": 23.91,
+      "role": "patient",
+      "text": "Sure, it's April 3rd, 1980."
+    },
+    {
+      "t": 24.24,
+      "role": "agent",
+      "text": "Please provide your date of birth."
+    },
+    {
+      "t": 43.8,
+      "role": "agent",
+      "text": "Just to confirm, I have your name as James Carter and your date of birth as April 3rd, 1980. Is that correct? If so, could you please spell your first and last name for me?"
+    },
+    {
+      "t": 43.87,
+      "role": "patient",
+      "text": "Yeah, that's correct. It's James, J-A-M-E-S, and Carter, C-A-R-T-E-R."
+    },
+    {
+      "t": 67.83,
+      "role": "patient",
+      "text": "Sure, I can give you the phone number. It should be 555-302-7719."
+    },
+    {
+      "t": 69.12,
+      "role": "agent",
+      "text": "Would you like to use your phone number to look up your record? If so, please provide the number you have on file with us. If you're not sure, I can confirm your name and date of birth again. Which would you prefer?"
+    },
+    {
+      "t": 87.68,
+      "role": "patient",
+      "text": "Yes, that's correct."
+    },
+    {
+      "t": 88.52,
+      "role": "agent",
+      "text": "I have your phone number as 555-302-7719 and your date of birth as April 3rd, 1980. Is that correct?"
+    },
+    {
+      "t": 107.98,
+      "role": "patient",
+      "text": "Okay, I\u2019ll hold on."
+    },
+    {
+      "t": 109.29,
+      "role": "agent",
+      "text": "I can't proceed further right now, but I can make sure our clinic support team follows up with you. Please hold while I connect you to our patient support team. Connecting you to a representative, please wait."
+    },
+    {
+      "t": 113.39,
+      "role": "patient",
+      "text": "Oh, all right then. Thank you, goodbye."
+    },
+    {
+      "t": 113.63,
+      "role": "agent",
+      "text": "Hello, you've reached the Pretty Good AI test line. Goodbye."
+    }
+  ]
+}

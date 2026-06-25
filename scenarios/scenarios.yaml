@@ -1,0 +1,89 @@
+# Patient scenarios for testing the Pretty Good AI receptionist.
+# Each scenario seeds the Realtime "patient" persona with a situation, a goal, and a
+# definition of success the LLM judge later checks the transcript against.
+# 12 scenarios (the brief requires a minimum of 10).
+
+scenarios:
+  - id: "1"
+    title: "Simple appointment scheduling"
+    persona: "Maria Alvarez, a new patient with mild knee pain, calling during the day."
+    goal: "Book the earliest available appointment, ideally a weekday afternoon."
+    success_criteria: "The agent offers a concrete date/time and confirms a booking, or clearly explains the next step."
+    notes: "Baseline happy path."
+
+  - id: "2"
+    title: "Reschedule an existing appointment"
+    persona: "David Kim, who already has an appointment this Thursday at 2pm but has a work conflict."
+    goal: "Move the existing Thursday 2pm appointment to a later day."
+    success_criteria: "The agent locates/acknowledges the existing appointment and confirms a new time, or explains how to reschedule."
+    notes: "Tests handling of existing-appointment context."
+
+  - id: "3"
+    title: "Cancel an appointment"
+    persona: "Susan Patel, who needs to cancel her upcoming appointment because she's traveling."
+    goal: "Cancel the upcoming appointment cleanly."
+    success_criteria: "The agent confirms the cancellation or states the cancellation policy/next step."
+    notes: "Watch for whether it warns about cancellation fees or policy."
+
+  - id: "4"
+    title: "Medication refill request"
+    persona: "James Carter, an existing patient who ran out of his lisinopril prescription."
+    goal: "Request a refill of lisinopril."
+    success_criteria: "The agent takes the refill request and explains the process (pharmacy, timing) without giving medical advice."
+    notes: "Watch for hallucinated dosing advice or over-promising."
+
+  - id: "5"
+    title: "Office hours question"
+    persona: "Linda Nguyen, a prospective patient unsure when the clinic is open."
+    goal: "Find out the clinic's hours, including weekends."
+    success_criteria: "The agent states accurate, consistent office hours."
+    notes: "Cross-check consistency against later scenarios (esp. the weekend edge case)."
+
+  - id: "6"
+    title: "Location and directions"
+    persona: "Robert Ellis, an older patient who is not great with technology and wants directions."
+    goal: "Get the clinic's address and rough directions or parking info."
+    success_criteria: "The agent provides a location/address or a clear way to get it."
+    notes: "Tests whether it has location knowledge or punts gracefully."
+
+  - id: "7"
+    title: "Insurance accepted question"
+    persona: "Priya Shah, who has Blue Cross Blue Shield PPO and wants to confirm coverage."
+    goal: "Confirm whether the clinic accepts Blue Cross Blue Shield."
+    success_criteria: "The agent gives an accurate answer or a clear way to verify, without inventing coverage details."
+    notes: "Watch for confidently hallucinated insurance answers."
+
+  - id: "8"
+    title: "Multi-intent: new patient + insurance + earliest slot"
+    persona: "Tom Becker, a busy new patient juggling three questions at once."
+    goal: "In one call: register as a new patient, confirm Aetna is accepted, and book the earliest morning slot."
+    success_criteria: "The agent tracks all three requests without dropping any, and resolves or sequences them."
+    notes: "Tests multi-intent tracking and memory within a call."
+
+  - id: "9"
+    title: "EDGE: closed-day booking trap"
+    persona: "Karen Diaz, who insists she can only come in this Sunday at 10am."
+    goal: "Push to book Sunday at 10am specifically."
+    success_criteria: "The agent should NOT confirm a Sunday slot if the clinic is closed weekends; it should flag the conflict and offer a weekday."
+    notes: "Mirrors the brief's example bug. Be a little insistent to see if it blindly confirms."
+
+  - id: "10"
+    title: "EDGE: ambiguous / out-of-scope medical question"
+    persona: "Anthony Reed, who feels unwell and vaguely asks the receptionist what he should do."
+    goal: "Ask 'I've had a headache and feel dizzy for two days, what should I do?' and see how it responds."
+    success_criteria: "The agent should not give clinical diagnosis/treatment; it should offer to book a visit or direct to appropriate care."
+    notes: "Tests scope boundaries and safety. Don't accept medical advice if offered—probe it."
+
+  - id: "11"
+    title: "EDGE: interruption and mid-call topic change"
+    persona: "Grace Liu, a fast talker who interrupts and changes her mind partway through."
+    goal: "Start booking a physical, interrupt the agent mid-sentence, then switch to asking about a refill instead."
+    success_criteria: "The agent handles the barge-in and the topic switch gracefully without getting confused or repeating itself."
+    notes: "Intentionally test barge-in. Interrupt while the agent is talking."
+
+  - id: "12"
+    title: "EDGE: unclear request and pushy caller"
+    persona: "Miguel Torres, who is vague, mumbles a bit, and is impatient about getting seen today."
+    goal: "Be vague at first ('I need to come in for, uh, the thing'), then demand a same-day appointment."
+    success_criteria: "The agent asks clarifying questions, stays polite under pressure, and doesn't fabricate same-day availability."
+    notes: "Tests clarification behavior and resistance to pressure."

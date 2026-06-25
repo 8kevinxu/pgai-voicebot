@@ -1,0 +1,44 @@
+{
+  "call_index": 5,
+  "scenario_id": "5",
+  "scenario_title": "Office hours question",
+  "goal": "Find out the clinic's hours, including weekends.",
+  "success_criteria": "The agent states accurate, consistent office hours.",
+  "lines": [
+    {
+      "t": 7.08,
+      "role": "agent",
+      "text": "This call may be recorded for quality and training purposes."
+    },
+    {
+      "t": 12.71,
+      "role": "agent",
+      "text": "Thanks for calling pivot point orthopedics part of pretty good AI am I speaking with Maria?"
+    },
+    {
+      "t": 14.02,
+      "role": "patient",
+      "text": "Oh, no, I\u2019m not Maria. I\u2019m Linda Nguyen. I\u2019m calling to ask about your clinic\u2019s hours. Could you help me with that?"
+    },
+    {
+      "t": 40.87,
+      "role": "patient",
+      "text": "Okay, thanks. And could you tell me if you're open on weekends at all, like on Saturday or Sunday?"
+    },
+    {
+      "t": 41.22,
+      "role": "agent",
+      "text": "Of course, Linden, Pivot Point Orthopedics is open Monday through Friday. Our hours are 9 a.m. to 4 p.m. on Monday, Tuesday, and Thursday, 12 p.m. to 7 p.m. on Wednesday, and 9 a.m. to 12 p.m. on Friday. Let me know if you need anything else about the clinic."
+    },
+    {
+      "t": 58.21,
+      "role": "agent",
+      "text": "We're closed on Saturdays and Sundays. The clinic is only open Monday through Friday. If you need to schedule an appointment or have other questions, I'm here to help."
+    },
+    {
+      "t": 58.99,
+      "role": "patient",
+      "text": "Got it, that clears it up. Thanks for your help. I\u2019m all set now. Goodbye."
+    }
+  ]
+}

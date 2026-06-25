@@ -1,0 +1,13 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Raw working audio; curated recordings are committed deliberately.
+recordings/*.wav
+
+# Local analysis scratch
+scripts/__pycache__/
+app/__pycache__/

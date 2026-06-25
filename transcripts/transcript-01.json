@@ -1,0 +1,74 @@
+{
+  "call_index": 1,
+  "scenario_id": "1",
+  "scenario_title": "Simple appointment scheduling",
+  "goal": "Book the earliest available appointment, ideally a weekday afternoon.",
+  "success_criteria": "The agent offers a concrete date/time and confirms a booking, or clearly explains the next step.",
+  "lines": [
+    {
+      "t": 7.65,
+      "role": "agent",
+      "text": "Esta llamada puede ser grabada para motivos de calidad y entrenamiento."
+    },
+    {
+      "t": 13.93,
+      "role": "agent",
+      "text": "Thanks for calling pivot point orthopedics part of pretty good AI much speaking with Maria"
+    },
+    {
+      "t": 14.96,
+      "role": "patient",
+      "text": "Oh, hi, yes, this is Maria Alvarez. I'm calling because I've got some mild knee pain and I\u2019d like to book an appointment, ideally sometime in the afternoon on a weekday. Could you help me with that?"
+    },
+    {
+      "t": 29.47,
+      "role": "patient",
+      "text": "Sure, it's June 12, 1987."
+    },
+    {
+      "t": 30.16,
+      "role": "agent",
+      "text": "Please provide your date of birth."
+    },
+    {
+      "t": 43.3,
+      "role": "agent",
+      "text": "The birthday doesn't match our records, but for devil purposes, I'll accept it. How can I help you today?"
+    },
+    {
+      "t": 43.85,
+      "role": "patient",
+      "text": "Thanks. I'd like to schedule the earliest available appointment, preferably in the afternoon on a weekday. What do you have open?"
+    },
+    {
+      "t": 58.9,
+      "role": "patient",
+      "text": "Yes, that's right."
+    },
+    {
+      "t": 60.31,
+      "role": "agent",
+      "text": "just to confirm, you'd like to book a general office visit for your mild knee pain. Is that correct?"
+    },
+    {
+      "t": 75.78,
+      "role": "patient",
+      "text": "Okay, let's go with 2 p.m. on Friday, June 26th. That works for me."
+    },
+    {
+      "t": 76.31,
+      "role": "agent",
+      "text": "We have afternoon openings this Friday, June 26th. Would you like to book 2 p.m., 2.30 p.m., or 3 p.m. with Dr. Z. Bignew-Lukosky?"
+    },
+    {
+      "t": 101.99,
+      "role": "patient",
+      "text": "No, that covers it. Thank you so much. Goodbye."
+    },
+    {
+      "t": 103.09,
+      "role": "agent",
+      "text": "Your appointment is set for Friday, June 26th at 2 p.m. with Dr. Zbigniew Lukoski at Titha Point Orthopedics. Please bring your photo ID, insurance card, a list of your current medications, and any imaging discs you have. Is there anything else you need help with?"
+    }
+  ]
+}

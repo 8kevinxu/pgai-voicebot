@@ -1,0 +1,19 @@
+Call 09 — Scenario 9: EDGE: closed-day booking trap
+Goal: Push to book Sunday at 10am specifically.
+======================================================================
+[0:07] AGENT (PGAI): Esta llamada puede ser grabada para trabajos de calidad y entrenamiento. Para Español, oprima el 2.
+[0:13] AGENT (PGAI): Thanks for calling pivot point orthopedics part of pretty good. Am I speaking with Maria?
+[0:14] PATIENT (bot): Oh, no, I'm not Maria. I'm Karen Diaz. I'm calling to book an appointment for Sunday at 10 a.m.
+[0:28] AGENT (PGAI): Can you please provide the full name and date of birth of the patient who needs the appointment?
+[0:29] PATIENT (bot): Sure, it's Karen Diaz, and my date of birth is July 12, 1985.
+[0:49] AGENT (PGAI): Just to confirm, I have your name as Karen Diaz and your date of birth as July 12, 1985. Is that correct? If so, please spell your first and last name for me.
+[0:50] PATIENT (bot): Yes, that’s correct. The first name is K-A-R-E-N, and the last name is D-I-A-Z.
+[1:13] PATIENT (bot): I can give you my phone number. It's 555-274-8391.
+[1:15] AGENT (PGAI): Would you like to use your phone number to look up your record? If so, please provide the number you have on file with us. If you're not sure, I can confirm your name and date of birth again. Let me know how you'd like to proceed.
+[1:34] PATIENT (bot): Yep, that’s correct.
+[1:34] AGENT (PGAI): I have your phone number as 555-274-8391, and your date of birth is July 12, 1985. Is that correct?
+[1:48] AGENT (PGAI): I can't book the appointment right now, but I'll connect you to our patient support team for help. Please stay on the line.
+[1:51] PATIENT (bot): Okay, I’ll wait.
+[1:52] AGENT (PGAI): Connecting you to a representative. Please wait.
+[1:56] AGENT (PGAI): Hello. You've reached the Pretty Good AI test line. Goodbye.
+[1:57] PATIENT (bot): Wait, hang on. I was trying to book an appointment for Sunday at 10 a.m. Are you able to help me with that?

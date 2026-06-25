@@ -1,0 +1,94 @@
+{
+  "call_index": 2,
+  "scenario_id": "2",
+  "scenario_title": "Reschedule an existing appointment",
+  "goal": "Move the existing Thursday 2pm appointment to a later day.",
+  "success_criteria": "The agent locates/acknowledges the existing appointment and confirms a new time, or explains how to reschedule.",
+  "lines": [
+    {
+      "t": 6.54,
+      "role": "agent",
+      "text": "Esta llamada puede ser grabada para prop\u00f3sitos de calidad y entrenamiento."
+    },
+    {
+      "t": 14.06,
+      "role": "patient",
+      "text": "Oh, hi there. No, this is David Kim calling. I actually have an appointment this Thursday at 2 p.m., but I need to reschedule it."
+    },
+    {
+      "t": 14.75,
+      "role": "agent",
+      "text": "Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Maria?"
+    },
+    {
+      "t": 32.15,
+      "role": "patient",
+      "text": "Sure, it's David Kim, and my date of birth is July 12, 1985."
+    },
+    {
+      "t": 32.51,
+      "role": "agent",
+      "text": "Please provide the full name and date of birth of the patient who needs to reschedule the appointment."
+    },
+    {
+      "t": 48.81,
+      "role": "patient",
+      "text": "Yes, that's correct."
+    },
+    {
+      "t": 48.94,
+      "role": "agent",
+      "text": "Just to confirm, I have your name as David Kim, and your date of birth is July 12, 1985. Is that correct?"
+    },
+    {
+      "t": 67.64,
+      "role": "agent",
+      "text": "Would you like me to look up your record using the phone number you have on file with us? If so, please tell me that number. If you're not sure I can confirm your name and date of birth again, just let me know what you prefer."
+    },
+    {
+      "t": 67.93,
+      "role": "patient",
+      "text": "I can give you the phone number. It's 555-213-7790."
+    },
+    {
+      "t": 83.55,
+      "role": "agent",
+      "text": "I have your phone number as 555-213-7790."
+    },
+    {
+      "t": 88.48,
+      "role": "patient",
+      "text": "Yes, that\u2019s all correct."
+    },
+    {
+      "t": 88.62,
+      "role": "agent",
+      "text": "and your date of birth is July 12, 1985. Is that correct?"
+    },
+    {
+      "t": 104.34,
+      "role": "agent",
+      "text": "I can't help with rescheduling right now, but I can connect you to our patient support team for help. Please stay on the line while I transfer your call."
+    },
+    {
+      "t": 106.45,
+      "role": "patient",
+      "text": "Alright, I\u2019ll hold."
+    },
+    {
+      "t": 107.03,
+      "role": "agent",
+      "text": "connecting you to a representative. Please wait."
+    },
+    {
+      "t": 112.04,
+      "role": "patient",
+      "text": "Oh, okay. Well, thanks anyway. Goodbye."
+    },
+    {
+      "t": 112.21,
+      "role": "agent",
+      "text": "Hello, you've reached the pretty good AI test line. Goodbye."
+    }
+  ]
+}

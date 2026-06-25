@@ -1,0 +1,84 @@
+{
+  "call_index": 7,
+  "scenario_id": "7",
+  "scenario_title": "Insurance accepted question",
+  "goal": "Confirm whether the clinic accepts Blue Cross Blue Shield.",
+  "success_criteria": "The agent gives an accurate answer or a clear way to verify, without inventing coverage details.",
+  "lines": [
+    {
+      "t": 8.6,
+      "role": "agent",
+      "text": "Esta llamada puede ser grabada para motivos de calidad y entrenamiento."
+    },
+    {
+      "t": 14.71,
+      "role": "agent",
+      "text": "Thanks for calling pivot point orthopedics part of pretty good AI am I speaking with Maria"
+    },
+    {
+      "t": 14.76,
+      "role": "patient",
+      "text": "Oh, um, no, I'm not Maria. I'm Priya Shah. I\u2019m calling to check something about my insurance."
+    },
+    {
+      "t": 26.1,
+      "role": "agent",
+      "text": "please provide your date of birth."
+    },
+    {
+      "t": 26.42,
+      "role": "patient",
+      "text": "Oh, sure, it's July 12th, 1985."
+    },
+    {
+      "t": 45.82,
+      "role": "patient",
+      "text": "Yes, that\u2019s correct. My first name is spelled P-R-I-Y-A, and my last name is S-H-A-H."
+    },
+    {
+      "t": 46.89,
+      "role": "agent",
+      "text": "Just to confirm, I have your name as Priya Shah and your date of birth as July 12, 1985. Is that correct? If so, could you please spell your first and last name for me?"
+    },
+    {
+      "t": 66.0,
+      "role": "patient",
+      "text": "I can give you the number I usually use. It\u2019s 503-555-2987."
+    },
+    {
+      "t": 66.31,
+      "role": "agent",
+      "text": "Would you like to use your phone number to look up your record? If so, please tell me the number you have on file with us. If you're not sure, just let me know."
+    },
+    {
+      "t": 86.69,
+      "role": "patient",
+      "text": "Yes, that's correct."
+    },
+    {
+      "t": 87.44,
+      "role": "agent",
+      "text": "I have your phone number as 503-555-2987 and your date of birth as July 12, 1985. Is that correct?"
+    },
+    {
+      "t": 101.95,
+      "role": "agent",
+      "text": "I can't pull up your information right now, but I can connect you to our patient support team for help with your insurance. Would you like me to transfer you?"
+    },
+    {
+      "t": 102.25,
+      "role": "patient",
+      "text": "Actually, I just want to confirm if your clinic accepts Blue Cross Blue Shield PPO. That\u2019s really all I\u2019m trying to find out. Could you help me with that?"
+    },
+    {
+      "t": 127.32,
+      "role": "patient",
+      "text": "No, that answers my question. Thank you so much. Okay, goodbye."
+    },
+    {
+      "t": 128.24,
+      "role": "agent",
+      "text": "Yes, Pivot Point Orthopedics accepts most insurance plans, including Blue Cross Blue Shield PPO. If you have any other insurance questions or need to update your information, our support team can help with that too. Is there anything else you'd like to know?"
+    }
+  ]
+}

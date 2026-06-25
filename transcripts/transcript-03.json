@@ -1,0 +1,109 @@
+{
+  "call_index": 3,
+  "scenario_id": "3",
+  "scenario_title": "Cancel an appointment",
+  "goal": "Cancel the upcoming appointment cleanly.",
+  "success_criteria": "The agent confirms the cancellation or states the cancellation policy/next step.",
+  "lines": [
+    {
+      "t": 7.68,
+      "role": "agent",
+      "text": "This call may be recorded for quality and training purposes."
+    },
+    {
+      "t": 13.31,
+      "role": "patient",
+      "text": "Oh, um, no, this is Susan Patel calling."
+    },
+    {
+      "t": 14.88,
+      "role": "agent",
+      "text": "Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Maria?"
+    },
+    {
+      "t": 24.63,
+      "role": "patient",
+      "text": "I'm calling for myself, yeah."
+    },
+    {
+      "t": 25.19,
+      "role": "agent",
+      "text": "Thanks for letting me know Susan. Are you calling for yourself or for someone else today?"
+    },
+    {
+      "t": 32.36,
+      "role": "patient",
+      "text": "Sure, it\u2019s February 14, 1985."
+    },
+    {
+      "t": 32.47,
+      "role": "agent",
+      "text": "Please provide your date of birth."
+    },
+    {
+      "t": 52.11,
+      "role": "patient",
+      "text": "Yes, that's correct. It's Susan, S-U-S-A-N, and Patel, P-A-T-E-L."
+    },
+    {
+      "t": 52.11,
+      "role": "agent",
+      "text": "Just to confirm, I have your name as Susan Patel and your date of birth as February 14, 1985. Is that correct? If so, could you please spell your first and last name for me?"
+    },
+    {
+      "t": 77.15,
+      "role": "patient",
+      "text": "I can give you the number. It's 555-201-3398."
+    },
+    {
+      "t": 77.54,
+      "role": "agent",
+      "text": "Would you like me to look up your record using the phone number you have on file with us? If so, please provide that number. If you're not sure, I can confirm your name and date of birth with you again. Which would you prefer?"
+    },
+    {
+      "t": 89.85,
+      "role": "agent",
+      "text": "I hope your phone number is 555..."
+    },
+    {
+      "t": 94.11,
+      "role": "agent",
+      "text": "2 0 1 3 3 9 8"
+    },
+    {
+      "t": 98.03,
+      "role": "patient",
+      "text": "Yeah, that's right."
+    },
+    {
+      "t": 99.03,
+      "role": "agent",
+      "text": "and your date of birth is February 14th, 1985. Is that correct?"
+    },
+    {
+      "t": 113.84,
+      "role": "agent",
+      "text": "I can't proceed further right now, but I can make sure our clinic support team follows up with you. Please hold while I connect you to our patient support team."
+    },
+    {
+      "t": 116.36,
+      "role": "patient",
+      "text": "Oh, wait,"
+    },
+    {
+      "t": 117.11,
+      "role": "agent",
+      "text": "Connecting you to a representative. Please wait."
+    },
+    {
+      "t": 121.62,
+      "role": "patient",
+      "text": "Okay, thank you, goodbye."
+    },
+    {
+      "t": 122.69,
+      "role": "agent",
+      "text": "Hello, you've reached the Pretty Good AI test line. Goodbye."
+    }
+  ]
+}

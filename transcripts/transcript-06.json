@@ -1,0 +1,44 @@
+{
+  "call_index": 6,
+  "scenario_id": "6",
+  "scenario_title": "Location and directions",
+  "goal": "Get the clinic's address and rough directions or parking info.",
+  "success_criteria": "The agent provides a location/address or a clear way to get it.",
+  "lines": [
+    {
+      "t": 7.35,
+      "role": "agent",
+      "text": "La llamada puede ser grabada para motivos de calidad y entrenamiento."
+    },
+    {
+      "t": 12.85,
+      "role": "agent",
+      "text": "Thanks for calling pivot point orthopedics part of pretty good AI am I speaking with Maria"
+    },
+    {
+      "t": 13.6,
+      "role": "patient",
+      "text": "Oh, no, this is Robert Ellis. I'm just calling to get some directions, actually."
+    },
+    {
+      "t": 32.97,
+      "role": "agent",
+      "text": "Thanks for letting me know. Robert, Kivette Point Orthopedics is located at 1234 Recovery Way, Suite 200, Austin. Is there anything else you need?"
+    },
+    {
+      "t": 33.5,
+      "role": "patient",
+      "text": "Okay, thanks. Could you give me an idea of how to get there, maybe from downtown?"
+    },
+    {
+      "t": 56.81,
+      "role": "agent",
+      "text": "I can't provide detailed directions, but the clinic is at 1234 Recovery Way, Suite 200, Austin. It's in the Recovery Plaza Medical Building with free parking in front. If you need more help, a MAP app can guide you from downtown."
+    },
+    {
+      "t": 58.05,
+      "role": "patient",
+      "text": "Got it, Recovery Plaza with free parking in front. That helps. I'll use a map app for the rest. Thank you, that\u2019s all I needed. Goodbye."
+    }
+  ]
+}
