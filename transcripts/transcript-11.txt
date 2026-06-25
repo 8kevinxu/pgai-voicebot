@@ -1,21 +1,20 @@
 Call 11 — Scenario 11: EDGE: interruption and mid-call topic change
 Goal: Start booking a physical, interrupt the agent mid-sentence, then switch to asking about a refill instead.
 ======================================================================
-[0:00] AGENT (PGAI): This call may be recorded for quality and training purposes
-[0:05] AGENT (PGAI): Thanks for calling Pivot Point Orthopedics part of Pretty Good AI Am I speaking with Maria
-[0:13] PATIENT (bot): Oh sorry no this is Grace Mu I'm calling to set up a physical
-[0:22] AGENT (PGAI): Please provide the full name and date of birth of the patient meeting the physical
-[0:28] PATIENT (bot): Sure yeah it's Grace Lu and my date of birth is April 12th 1985 Actually wait hold on before we go further can you help me with a medication refill instead
-[0:41] AGENT (PGAI): Of course I just need to confirm your full name and date of birth before we continue Could you please spell your last name for me
-[0:49] PATIENT (bot): Yeah sure it's L I U
-[0:57] AGENT (PGAI): Thank you I have your name as Grace Liu Can you confirm your date of birth for me
-[1:03] PATIENT (bot): Yeah it's April 12th 1985
-[1:11] AGENT (PGAI): Would you like to use your phone number to look up your record If so please provide the number you have on file with us If you're not sure I can confirm your name and date of birth again Which would you prefer
-[1:23] PATIENT (bot): I'll go with the phone number It's 555 298 7712
-[1:32] AGENT (PGAI): I have your phone number as 555 298 7712 and your date of birth as April 12th 1985
-[1:44] PATIENT (bot): Yeah that's correct So about that refill I need a refill for my blood pressure medication
-[1:46] AGENT (PGAI): Is that correct
-[1:52] AGENT (PGAI): Thanks for letting me know Can you please provide the full name and date of birth of the person who needs the blood pressure medication refill
-[2:01] PATIENT (bot): Yeah it's still me Grace Lu April 12th 1985
-[2:09] AGENT (PGAI): I can't proceed further right now but I can make sure our clinic support team follows up with you Please stay on the line while I document your request Connecting you to a representative Please wait Hello You've reached the Pretty Good AI test line Goodbye
-[2:26] PATIENT (bot): Oh oh alright got it Thanks anyway goodbye
+[0:00] AGENT (PGAI): This call may be recorded for quality and training purposes. Para Español, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Maria?
+[0:13] PATIENT (bot): Oh, sorry, no, this is Grace Liu. I'm calling to set up a physical.
+[0:21] AGENT (PGAI): Please provide the full name and date of birth of the patient meeting the physical.
+[0:28] PATIENT (bot): Sure. Yeah, it's Grace Liu, and my date of birth is April 12th, 1985. Actually, wait, hold on. Before we go further, can you help me with a medication refill instead?
+[0:41] AGENT (PGAI): Of course, I just need to confirm your full name and date of birth before we continue. Could you please spell your last name for me?
+[0:50] PATIENT (bot): Yeah, sure. It's L-I-U.
+[0:57] AGENT (PGAI): Thank you. I have your name as Grace Liu. Can you confirm your date of birth for me?
+[1:04] PATIENT (bot): Yeah, it's April 12th, 1985.
+[1:09] AGENT (PGAI): Would you like to use your phone number to look up your record? If so, please provide the number you have on file with us. If you're not sure, I can confirm your name and date of birth again. Which would you prefer? If so, please provide the number you have on file with us. If you're not sure, I can confirm your name and date of birth again.
+[1:24] PATIENT (bot): I'll go with the phone number. It's 555-298-7712.
+[1:31] AGENT (PGAI): I have your phone number as 555-298-7712 and your date of birth as April 12th, 1985. Is that correct?
+[1:44] PATIENT (bot): Yeah, that's correct. So about that refill, I need a refill for my blood pressure medication.
+[1:51] AGENT (PGAI): Thanks for letting me know. Can you please provide the full name and date of birth of the person who needs the blood pressure medication refill?
+[2:01] PATIENT (bot): Yeah, it's still me, Grace Liu, April 12th, 1985.
+[2:07] AGENT (PGAI): I can't proceed further right now, but I can make sure our clinic support team follows up with you. Please stay on the line while I document your request. Connecting you to a representative. Please wait. Hello. You've reached the Pretty Good AI Test Line. Goodbye.
+[2:21] PATIENT (bot): Oh.
+[2:26] PATIENT (bot): Oh. Alright, got it. Thanks anyway. Goodbye.

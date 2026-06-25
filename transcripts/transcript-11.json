@@ -9,92 +9,87 @@
     {
       "t": 0.0,
       "role": "agent",
-      "text": "This call may be recorded for quality and training purposes"
+      "text": "This call may be recorded for quality and training purposes. Para Espa\u00f1ol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Maria?"
     },
     {
-      "t": 5.6,
-      "role": "agent",
-      "text": "Thanks for calling Pivot Point Orthopedics part of Pretty Good AI Am I speaking with Maria"
-    },
-    {
-      "t": 13.2,
+      "t": 13.3,
       "role": "patient",
-      "text": "Oh sorry no this is Grace Mu I'm calling to set up a physical"
+      "text": "Oh, sorry, no, this is Grace Liu. I'm calling to set up a physical."
     },
     {
-      "t": 22.9,
+      "t": 21.39,
       "role": "agent",
-      "text": "Please provide the full name and date of birth of the patient meeting the physical"
+      "text": "Please provide the full name and date of birth of the patient meeting the physical."
     },
     {
-      "t": 28.8,
+      "t": 28.81,
       "role": "patient",
-      "text": "Sure yeah it's Grace Lu and my date of birth is April 12th 1985 Actually wait hold on before we go further can you help me with a medication refill instead"
+      "text": "Sure. Yeah, it's Grace Liu, and my date of birth is April 12th, 1985. Actually, wait, hold on. Before we go further, can you help me with a medication refill instead?"
     },
     {
-      "t": 41.44,
+      "t": 41.29,
       "role": "agent",
-      "text": "Of course I just need to confirm your full name and date of birth before we continue Could you please spell your last name for me"
+      "text": "Of course, I just need to confirm your full name and date of birth before we continue. Could you please spell your last name for me?"
     },
     {
-      "t": 49.18,
+      "t": 50.05,
       "role": "patient",
-      "text": "Yeah sure it's L I U"
+      "text": "Yeah, sure. It's L-I-U."
     },
     {
-      "t": 57.52,
+      "t": 57.42,
       "role": "agent",
-      "text": "Thank you I have your name as Grace Liu Can you confirm your date of birth for me"
+      "text": "Thank you. I have your name as Grace Liu. Can you confirm your date of birth for me?"
     },
     {
-      "t": 63.92,
+      "t": 64.71,
       "role": "patient",
-      "text": "Yeah it's April 12th 1985"
+      "text": "Yeah, it's April 12th, 1985."
     },
     {
-      "t": 71.76,
+      "t": 69.82,
       "role": "agent",
-      "text": "Would you like to use your phone number to look up your record If so please provide the number you have on file with us If you're not sure I can confirm your name and date of birth again Which would you prefer"
+      "text": "Would you like to use your phone number to look up your record? If so, please provide the number you have on file with us. If you're not sure, I can confirm your name and date of birth again. Which would you prefer? If so, please provide the number you have on file with us. If you're not sure, I can confirm your name and date of birth again."
     },
     {
-      "t": 83.64,
+      "t": 84.06,
       "role": "patient",
-      "text": "I'll go with the phone number It's 555 298 7712"
+      "text": "I'll go with the phone number. It's 555-298-7712."
     },
     {
-      "t": 92.78,
+      "t": 91.22,
       "role": "agent",
-      "text": "I have your phone number as 555 298 7712 and your date of birth as April 12th 1985"
+      "text": "I have your phone number as 555-298-7712 and your date of birth as April 12th, 1985. Is that correct?"
     },
     {
-      "t": 104.3,
+      "t": 104.49,
       "role": "patient",
-      "text": "Yeah that's correct So about that refill I need a refill for my blood pressure medication"
+      "text": "Yeah, that's correct. So about that refill, I need a refill for my blood pressure medication."
     },
     {
-      "t": 106.2,
+      "t": 111.29,
       "role": "agent",
-      "text": "Is that correct"
+      "text": "Thanks for letting me know. Can you please provide the full name and date of birth of the person who needs the blood pressure medication refill?"
     },
     {
-      "t": 112.52,
-      "role": "agent",
-      "text": "Thanks for letting me know Can you please provide the full name and date of birth of the person who needs the blood pressure medication refill"
-    },
-    {
-      "t": 121.22,
+      "t": 121.27,
       "role": "patient",
-      "text": "Yeah it's still me Grace Lu April 12th 1985"
+      "text": "Yeah, it's still me, Grace Liu, April 12th, 1985."
     },
     {
-      "t": 129.38,
+      "t": 127.12,
       "role": "agent",
-      "text": "I can't proceed further right now but I can make sure our clinic support team follows up with you Please stay on the line while I document your request Connecting you to a representative Please wait Hello You've reached the Pretty Good AI test line Goodbye"
+      "text": "I can't proceed further right now, but I can make sure our clinic support team follows up with you. Please stay on the line while I document your request. Connecting you to a representative. Please wait. Hello. You've reached the Pretty Good AI Test Line. Goodbye."
     },
     {
-      "t": 146.32,
+      "t": 141.89,
       "role": "patient",
-      "text": "Oh oh alright got it Thanks anyway goodbye"
+      "text": "Oh."
+    },
+    {
+      "t": 146.95,
+      "role": "patient",
+      "text": "Oh. Alright, got it. Thanks anyway. Goodbye."
     }
   ]
 }

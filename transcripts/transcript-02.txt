@@ -1,18 +1,16 @@
 Call 02 — Scenario 2: Reschedule an existing appointment
 Goal: Move the existing Thursday 2pm appointment to a later day.
 ======================================================================
-[0:00] AGENT (PGAI): This call may be recorded for quality and training purposes Para Español oprima el 2 Thanks for calling Pivot Point Orthopedics part of Pretty Good AI Am I speaking with Maria
-[0:12] PATIENT (bot): Oh hi there No this is David Kim calling I actually have an appointment this Thursday at 2pm but I need to reschedule it
-[0:25] AGENT (PGAI): Please provide the full name and date of birth of the patient who needs to reschedule the appointment
-[0:31] PATIENT (bot): Sure it's David Kim and my date of birth is July 12th 1985
-[0:40] AGENT (PGAI): Just to confirm I have your name as David Kim and your date of birth is July 12 1985 Is that correct
-[0:48] PATIENT (bot): Yes that's correct
-[0:54] AGENT (PGAI): Would you like me to look up your record using the phone number you have on file with us If so please tell me that number If you're not sure I can confirm your name and date of birth again just let me know what you prefer
-[1:06] PATIENT (bot): I can give you the phone number It's 555 213 7790
-[1:17] AGENT (PGAI): I have your phone number as 555 213 7790 and your date of birth is July 12 1985 Is that correct
-[1:18] PATIENT (bot): No
-[1:28] PATIENT (bot): Yes that's all correct
-[1:34] AGENT (PGAI): I can't help with rescheduling right now but I can connect you to our patient support team for help Please stay on the line while I transfer your call Connecting you to a representative Please wait
-[1:46] PATIENT (bot): All right
-[1:46] AGENT (PGAI): Hello you've reached the Pretty Good AI test line Goodbye
-[1:51] PATIENT (bot): Oh okay Well thanks anyway Goodbye
+[0:00] AGENT (PGAI): This call may be recorded for quality and training purposes. Para espanol, oprima el dos. Thanks for calling Pivot Point Orthopedics, part of PrettyBidAI. Am I speaking with Maria?
+[0:12] PATIENT (bot): Oh, hi there. No, this is David Kim calling. I actually have an appointment this Thursday at 2pm, but I need to reschedule it.
+[0:22] AGENT (PGAI): Please provide the full name and date of birth of the patient who needs to reschedule the appointment.
+[0:31] PATIENT (bot): Sure, it's David Kim, and my date of birth is July 12th, 1985.
+[0:38] AGENT (PGAI): Just to confirm, I have your name as David Kim and your date of birth as July 12, 1985. Is that correct?
+[0:48] PATIENT (bot): Yes, that's correct.
+[0:51] AGENT (PGAI): Would you like me to look up your record using the phone number you have on file with us? If so, please tell me that number. If you're not sure I can confirm your name and date of birth again, just let me know what you prefer.
+[1:06] PATIENT (bot): I can give you the phone number. It's 555-213-7790.
+[1:14] AGENT (PGAI): I have your phone number as 555-213-7790 and your date of birth as July 12, 1985. Is that correct?
+[1:28] PATIENT (bot): Yes, that's all correct.
+[1:31] AGENT (PGAI): I can't help with rescheduling right now, but I can connect you to our patient support team for help. Please stay on the line while I transfer your call. Connecting you to a representative. Please wait. Hello. You've reached the Pretty Good AI Test Line. Goodbye.
+[1:46] PATIENT (bot): All right.
+[1:51] PATIENT (bot): Oh. Okay. Well, thanks anyway. Goodbye.

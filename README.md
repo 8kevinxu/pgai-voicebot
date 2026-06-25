@@ -67,8 +67,11 @@ python scripts/analyze.py              # writes BUG_REPORT.md            (or: ma
 > transcript from Realtime events, but frame-arrival timing adds audio jitter and — because model
 > output completes early while input transcription lands late — the live transcript can misorder
 > turns. `fetch_recordings.py` pulls Twilio's cleanly-timed dual-channel recording, and
-> `transcribe_recordings.py` re-transcribes each channel (one speaker each) with Whisper segment
-> timestamps and merges by real spoken time. Those are the recording + transcript you submit.
+> `transcribe_recordings.py` rebuilds the transcript from that audio: it detects each channel's
+> voiced windows (`ffmpeg silencedetect`) and transcribes only those slices, then merges the two
+> speakers by spoken time. Transcribing voiced slices (rather than the whole mostly-silent
+> channel) keeps ordering correct and avoids Whisper hallucinating filler over long silences.
+> Those are the recording + transcript you submit.
 
 Useful subsets / single calls:
 

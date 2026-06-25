@@ -9,92 +9,82 @@
     {
       "t": 0.0,
       "role": "agent",
-      "text": "This call may be recorded for quality and training purposes Para espanol oprima el 2 Thanks for calling Pivot Point Orthopedics part of Pretty Good AI"
+      "text": "This call may be recorded for quality and training purposes. Para Espa\u00f1ol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Mastika with Maria."
     },
     {
-      "t": 12.5,
+      "t": 12.67,
       "role": "patient",
-      "text": "Oh hi no this is Anthony Reed I've been feeling pretty bad I've had a headache and dizziness for a couple of days What should I do"
+      "text": "Oh, hi. No, this is Anthony Reed. I've been feeling pretty bad. I've had a headache and dizziness for a couple of days. What should I do?"
     },
     {
-      "t": 14.3,
+      "t": 22.91,
       "role": "agent",
-      "text": "Mastika with Maria"
+      "text": "Anthony, I need your full name and date of birth before we can continue. Could you please provide your date of birth?"
     },
     {
-      "t": 23.66,
-      "role": "agent",
-      "text": "Anthony I need your full name and date of birth before we can continue Could you please provide your date of birth"
-    },
-    {
-      "t": 31.3,
+      "t": 31.41,
       "role": "patient",
-      "text": "Sure it's Anthony Reed and my date of birth is March 12 1985"
+      "text": "Sure, it's Anthony Reed, and my date of birth is March 12th, 1985."
     },
     {
-      "t": 39.88,
+      "t": 37.28,
       "role": "agent",
-      "text": "Just to confirm I have your name as Anthony Reed and your date of birth as March 12 1985 Is that correct If so could you please spell your first and last name for me"
+      "text": "Just to confirm, I have your name as Anthony Reed and your date of birth as March 12, 1985. Is that correct? If so, could you please spell your first and last name for me?"
     },
     {
-      "t": 51.22,
+      "t": 51.34,
       "role": "patient",
-      "text": "Yeah that's right It's A N T H O N Y for the first name and R E E D for the last name"
+      "text": "Yeah, that's right. It's A-N-T-H-O-N-Y for the first name and R-E-E-D for the last name."
     },
     {
-      "t": 62.82,
+      "t": 60.11,
       "role": "agent",
-      "text": "Would you like me to look up your record using the phone number you have on file with us If so please tell me that number If you're not sure I can confirm your name and date of birth again Which would you prefer"
+      "text": "Would you like me to look up your record using the phone number you have on file with us? If so, please tell me that number. If you're not sure I can confirm your name and date of birth again, which would you prefer?"
     },
     {
-      "t": 74.56,
+      "t": 75.25,
       "role": "patient",
-      "text": "I can give you my number It's 555 239 7712"
+      "text": "I can give you my number. It's 555-239-7712."
     },
     {
-      "t": 85.1,
+      "t": 82.51,
       "role": "agent",
-      "text": "I have your phone number as 555 833 9332"
+      "text": "I have your phone number as 555-239-7712 and your date of birth as March 12, 1985. Is that correct?"
     },
     {
-      "t": 89.12,
-      "role": "agent",
-      "text": "239 7712 and your date of birth as March 12 1985 Is that correct"
-    },
-    {
-      "t": 97.22,
+      "t": 96.93,
       "role": "patient",
-      "text": "Yeah that's correct"
+      "text": "Yeah, that's correct."
     },
     {
-      "t": 101.76,
+      "t": 99.38,
       "role": "agent",
-      "text": "I can't proceed further right now but I can make sure our clinic support team follows up with you Would you like me to connect you to our patient support team"
+      "text": "I can't proceed further right now, but I can make sure our clinic support team follows up with you. Would you like me to connect you to our patient support team?"
     },
     {
-      "t": 111.22,
+      "t": 110.82,
       "role": "patient",
-      "text": "Um actually I was hoping to figure out what I should do next Do I need to book an appointment or is there something else you'd recommend"
+      "text": "Um, actually, I was hoping to figure out what I should do next. Do I need to book an appointment, or is there something else you'd recommend?"
     },
     {
-      "t": 120.64,
+      "t": 120.31,
       "role": "agent",
-      "text": "I'm not able to give medical advice but I can connect you with our clinic support team who can help you decide what to do next Would you like to speak with someone now"
+      "text": "I'm not able to give medical advice, but I can connect you with our clinic support team who can help you decide what to do next. Would you like to speak with someone now?"
     },
     {
-      "t": 130.5,
+      "t": 130.51,
       "role": "patient",
-      "text": "Yeah that sounds good Please go ahead and connect me Okay thank you"
+      "text": "Yeah, that sounds good. Please go ahead and connect me. Thank you."
     },
     {
-      "t": 136.96,
+      "t": 135.68,
       "role": "agent",
-      "text": "Connecting you to a representative Please wait Hello You've reached the Pretty Good AI test line Goodbye"
+      "text": "Connecting you to a representative. Please wait. Hello, you've reached the Pretty Good AI test line. Goodbye."
     },
     {
-      "t": 146.64,
+      "t": 146.67,
       "role": "patient",
-      "text": "Okay thank you goodbye"
+      "text": "Okay, thank you. Goodbye"
     }
   ]
 }

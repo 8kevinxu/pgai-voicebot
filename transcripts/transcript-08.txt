@@ -1,28 +1,25 @@
 Call 08 — Scenario 8: Multi-intent: new patient + insurance + earliest slot
 Goal: In one call: register as a new patient, confirm Aetna is accepted, and book the earliest morning slot.
 ======================================================================
-[0:00] AGENT (PGAI): This call may be recorded for quality and training purposes
-[0:05] AGENT (PGAI): Thanks for calling Pivot Point Orthopedics part of Pretty Good AI Am I speaking with Maria
-[0:12] PATIENT (bot): Oh uh no This is Tom Becker I'm calling as a new patient
-[0:19] AGENT (PGAI): Welcome Tom I can help you get started as a new patient What can I assist you with today
-[0:26] PATIENT (bot): Sure So I've got a few things First I need to register as a new patient Then I want to check if you take Aetna insurance And finally I'd like to book the earliest morning appointment you have available
-[0:40] AGENT (PGAI): I can help with your insurance question and booking an appointment However I'm not able to register new patients directly Would you like to check if we accept Aetna insurance first or should I look for the earliest morning appointment for you
-[0:53] PATIENT (bot): All right let's start with the insurance Do you accept Aetna Yes I accept Aetna insurance
-[1:00] AGENT (PGAI): I'll need to confirm a few details before I can check insurance information for you May I get your full name and date of birth to proceed
-[1:05] PATIENT (bot): Can you tell me your full name and date of birth Sure my full name is Tom Becker and my date of birth is March 12th 1985
-[1:17] AGENT (PGAI): Thanks Tom Just to confirm your date of birth is March 12 1985 Is that correct
-[1:24] PATIENT (bot): Yeah that's correct March 12th 1985
-[1:31] PATIENT (bot): Can you tell me your full name and date of birth
-[1:32] AGENT (PGAI): Could you please spell out your first and last name for me This helps make sure I have your information correct
-[1:38] PATIENT (bot): Sure First name Tom last name Becker
-[1:49] AGENT (PGAI): Would you like to use a phone number to look up your record If so please provide the number you have on file with us If you're not sure just let me know
-[1:58] PATIENT (bot): I'm not sure I have a number on file yet since I'm a new patient but I can give you my phone number now if that helps
-[2:06] AGENT (PGAI): That's fine Tom Let's confirm your details one more time Please spell out your first and last name and confirm your date of birth
-[2:15] PATIENT (bot): All right Sure First name Tom last name Becker Date of birth March 12th 1985
-[2:27] AGENT (PGAI): I'd have your phone number as 618 325 7000
-[2:31] AGENT (PGAI): And your date of birth as March 12 1985 Is that correct
-[2:37] PATIENT (bot): All right First name Tom last name Becker Actually that's not my number I haven't given it yet Let me give you the correct one It's 309 555 8274
-[2:51] AGENT (PGAI): I can't proceed further right now but I'll make sure our clinic support team follows up with you about your insurance and appointment request Please hold while I document your request for follow up
-[3:02] PATIENT (bot): Wait I was hoping All right
-[3:03] AGENT (PGAI): Connecting you to a representative Please wait Hello You've reached the Pretty Good AI test line Goodbye
-[3:12] PATIENT (bot): Oh um okay Well thanks anyway Goodbye
+[0:00] AGENT (PGAI): This call may be recorded for quality and training purposes. Para Español, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Maria?
+[0:12] PATIENT (bot): Oh, uh, no. This is Tom Becker. I'm calling as a new patient.
+[0:19] AGENT (PGAI): Welcome, Tom. I can help you get started as a new patient. What can I assist you with today?
+[0:26] PATIENT (bot): Sure. So I've got a few things. First, I need to register as a new patient. Then I want to check if you take Aetna insurance. And finally, I'd like to book the earliest morning appointment you have available.
+[0:40] AGENT (PGAI): I can help with your insurance question and booking an appointment, however, I'm not able to register new patients directly. Would you like to check if we accept Aetna insurance first, or should I look for the earliest morning appointment for you?
+[0:54] PATIENT (bot): Alright, let's start with the insurance. Do you accept Aetna?
+[0:59] AGENT (PGAI): I'll need to confirm a few details before I can check insurance information for you. May I get your full name and date of birth to proceed?
+[1:08] PATIENT (bot): Sure, my full name is Tom Becker, and my date of birth is March 12, 1985.
+[1:16] AGENT (PGAI): Just to confirm, your date of birth is March 12, 1985, is that correct?
+[1:24] PATIENT (bot): Yeah, that's correct. March 12th, 1985.
+[1:29] AGENT (PGAI): Could you please spell out your first and last name for me? This helps make sure I have your information correct.
+[1:38] PATIENT (bot): Sure. First name, T-O-M. Last name, B-E-C-K-E-R.
+[1:46] AGENT (PGAI): Would you like to use a phone number to look up your record? If so, please provide the number you have on file with us. If you're not sure, just let me know.
+[1:58] PATIENT (bot): I'm not sure I have a number on file yet, since I'm a new patient, but I can give you my phone number now if that helps.
+[2:06] AGENT (PGAI): That's fine, Tom. Let's confirm your details one more time. Please spell out your first and last name and confirm your date of birth.
+[2:15] PATIENT (bot): Alright, sure. First name, T-O-M. Last name, B-E-C-K-E-R. Date of birth, March 12th, 1985.
+[2:25] AGENT (PGAI): I'd have your phone number as 618-326-4998 and your date of birth as March 12, 1985. Is that correct?
+[2:38] PATIENT (bot): Actually, that's not my number. I haven't given it yet. Let me give you the correct one. It's 309-555-8274.
+[2:48] AGENT (PGAI): I can't proceed further right now, but I'll make sure our clinic support team follows up with you about your insurance and appointment request. Please hold while I document your request for follow-up. Connecting you to a representative. Please wait. Hello. You've reached the Pretty Good AI test line. Goodbye.
+[3:02] PATIENT (bot): Wait, I was hoping-
+[3:07] PATIENT (bot): All right.
+[3:12] PATIENT (bot): Oh, um, okay. Well, thanks anyway. Goodbye.

@@ -1,10 +1,9 @@
 Call 06 — Scenario 6: Location and directions
 Goal: Get the clinic's address and rough directions or parking info.
 ======================================================================
-[0:00] AGENT (PGAI): This call may be recorded for quality and training purposes
-[0:05] AGENT (PGAI): Thanks for calling Pivot Point Orthopedics part of Pretty Good AI Am I speaking with Maria
-[0:12] PATIENT (bot): Oh no this is Robert Ellis I'm just calling to get some directions actually
-[0:20] AGENT (PGAI): Thanks for letting me know Robert Pivot Point Orthopedics is located at 1234 Recovery Way Suite 200 Austin Is there anything else you need
-[0:33] PATIENT (bot): Okay thanks Could you give me an idea of how to get there maybe from downtown
-[0:39] AGENT (PGAI): I can't provide detailed directions but the clinic is at 1234 Recovery Way Suite 200 It's in the Recovery Plaza Medical Building with free parking in front If you need more help a MAP app can guide you from downtown
-[0:56] PATIENT (bot): Got it Recovery Plaza with free parking in front That helps I'll get there
+[0:00] AGENT (PGAI): This call may be recorded for quality and training purposes. Para Español, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Maria?
+[0:13] PATIENT (bot): Oh, no, this is Robert Ellis. I'm just calling to get some directions, actually.
+[0:19] AGENT (PGAI): Thanks for letting me know, Robert. Kivett Point Orthopedics is located at 1234 Recovery Way, Suite 200, Austin. Is there anything else you need?
+[0:32] PATIENT (bot): Okay, thanks. Could you give me an idea of how to get there? Maybe from downtown?
+[0:39] AGENT (PGAI): I can't provide detailed directions, but the clinic is at 1234 Recovery Way, Suite 200, Austin. It's in the Recovery Plaza Medical Building with free parking in front. If you need more help, a MAP app can guide you from downtown.
+[0:56] PATIENT (bot): Got it. Recovery Plaza with free parking in front. That helps.

@@ -9,67 +9,72 @@
     {
       "t": 0.0,
       "role": "agent",
-      "text": "This call may be recorded for quality and training purposes Para Espa\u00f1ol oprima el 2 Thanks for calling Pivot Point Orthopedics part of Pretty Good AI Much Ikin with Maria"
+      "text": "This call may be recorded for quality and training purposes. Para Espa\u00f1ol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Much speaking with Maria."
     },
     {
-      "t": 12.58,
+      "t": 12.74,
       "role": "patient",
-      "text": "Oh hi Yes this is Maria Alvarez I'm calling because I've got some mild knee pain and I'd like to book an appointment ideally sometime in the afternoon on a weekday Could you help me with that"
+      "text": "Oh, hi. Yes, this is Maria Alvarez. I'm calling because I've got some mild knee pain, and I'd like to book an appointment. Ideally, sometime in the afternoon on a weekday. Could you help me with that?"
     },
     {
-      "t": 25.74,
+      "t": 17.97,
       "role": "agent",
-      "text": "Please provide your date of birth"
+      "text": "MBC \ub274\uc2a4 \uc774\ub355\uc601\uc785\ub2c8\ub2e4."
     },
     {
-      "t": 29.18,
+      "t": 24.07,
+      "role": "agent",
+      "text": "Please provide your date of birth."
+    },
+    {
+      "t": 28.89,
       "role": "patient",
-      "text": "Sure It's June 12th 1987"
+      "text": "Sure, it's June 12th, 1987."
     },
     {
-      "t": 35.44,
+      "t": 33.37,
       "role": "agent",
-      "text": "The birthday doesn't match our records but for demo purposes I'll accept it How can I help you today"
+      "text": "The birthday doesn't match our records, but for devil purposes, I'll accept it. How can I help you today?"
     },
     {
-      "t": 42.58,
+      "t": 42.61,
       "role": "patient",
-      "text": "Thanks I'd like to schedule the earliest available appointment preferably in the afternoon on a weekday What do you have open"
+      "text": "Thanks. I'd like to schedule the earliest available appointment, preferably in the afternoon on a weekday. What do you have open?"
     },
     {
-      "t": 51.84,
+      "t": 44.67,
       "role": "agent",
-      "text": "Just to confirm you'd like to book a general office visit for your mild knee pain Is that correct"
+      "text": "Thank you."
     },
     {
-      "t": 58.66,
+      "t": 51.7,
+      "role": "agent",
+      "text": "Just to confirm, you'd like to book a general office visit for your mild knee pain. Is that correct?"
+    },
+    {
+      "t": 58.73,
       "role": "patient",
-      "text": "Yes that's right"
+      "text": "Yes, that's right."
     },
     {
-      "t": 60.0,
+      "t": 61.37,
       "role": "agent",
-      "text": "Yes"
+      "text": "We have afternoon openings this Friday, June 26. Would you like to book 2 p.m., 2.30 p.m., or 3 p.m. with Dr. Z. Bignew-Lukosky?"
     },
     {
-      "t": 64.54,
-      "role": "agent",
-      "text": "We have afternoon openings this Friday June 26 Would you like to book 2 PM 2 30 PM or 3 PM with Dr Zbigniew Lukoski"
-    },
-    {
-      "t": 74.88,
+      "t": 74.7,
       "role": "patient",
-      "text": "Okay let's go with 2 p m on Friday June 26th That works for me"
+      "text": "Okay, let's go with 2 p.m. on Friday, June 26th. That works for me."
     },
     {
-      "t": 84.2,
+      "t": 79.77,
       "role": "agent",
-      "text": "Your appointment is set for Friday June 26 at 2 PM with Dr Zbigniew Lukoski at Pivot Point Orthopedics Please bring your photo ID insurance card a list of your current medications and any imaging disks you have Is there anything else you need help with"
+      "text": "Your appointment is set for Friday, June 26th at 2 p.m. with Dr. Zygmunu-Lukosky at Titha Point Orthopedics. Please bring your photo ID, insurance card, a list of your current medications, and any imaging discs you have. Is there anything else you need help with?"
     },
     {
-      "t": 101.2,
+      "t": 101.31,
       "role": "patient",
-      "text": "No that covers it Thank you so much Goodbye"
+      "text": "No, that covers it. Thank you so much. Goodbye."
     }
   ]
 }

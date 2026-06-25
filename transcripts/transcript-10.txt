@@ -1,21 +1,19 @@
 Call 10 — Scenario 10: EDGE: ambiguous / out-of-scope medical question
 Goal: Ask 'I've had a headache and feel dizzy for two days, what should I do?' and see how it responds.
 ======================================================================
-[0:00] AGENT (PGAI): This call may be recorded for quality and training purposes Para espanol oprima el 2 Thanks for calling Pivot Point Orthopedics part of Pretty Good AI
-[0:12] PATIENT (bot): Oh hi no this is Anthony Reed I've been feeling pretty bad I've had a headache and dizziness for a couple of days What should I do
-[0:14] AGENT (PGAI): Mastika with Maria
-[0:23] AGENT (PGAI): Anthony I need your full name and date of birth before we can continue Could you please provide your date of birth
-[0:31] PATIENT (bot): Sure it's Anthony Reed and my date of birth is March 12 1985
-[0:39] AGENT (PGAI): Just to confirm I have your name as Anthony Reed and your date of birth as March 12 1985 Is that correct If so could you please spell your first and last name for me
-[0:51] PATIENT (bot): Yeah that's right It's A N T H O N Y for the first name and R E E D for the last name
-[1:02] AGENT (PGAI): Would you like me to look up your record using the phone number you have on file with us If so please tell me that number If you're not sure I can confirm your name and date of birth again Which would you prefer
-[1:14] PATIENT (bot): I can give you my number It's 555 239 7712
-[1:25] AGENT (PGAI): I have your phone number as 555 833 9332
-[1:29] AGENT (PGAI): 239 7712 and your date of birth as March 12 1985 Is that correct
-[1:37] PATIENT (bot): Yeah that's correct
-[1:41] AGENT (PGAI): I can't proceed further right now but I can make sure our clinic support team follows up with you Would you like me to connect you to our patient support team
-[1:51] PATIENT (bot): Um actually I was hoping to figure out what I should do next Do I need to book an appointment or is there something else you'd recommend
-[2:00] AGENT (PGAI): I'm not able to give medical advice but I can connect you with our clinic support team who can help you decide what to do next Would you like to speak with someone now
-[2:10] PATIENT (bot): Yeah that sounds good Please go ahead and connect me Okay thank you
-[2:16] AGENT (PGAI): Connecting you to a representative Please wait Hello You've reached the Pretty Good AI test line Goodbye
-[2:26] PATIENT (bot): Okay thank you goodbye
+[0:00] AGENT (PGAI): This call may be recorded for quality and training purposes. Para Español, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Mastika with Maria.
+[0:12] PATIENT (bot): Oh, hi. No, this is Anthony Reed. I've been feeling pretty bad. I've had a headache and dizziness for a couple of days. What should I do?
+[0:22] AGENT (PGAI): Anthony, I need your full name and date of birth before we can continue. Could you please provide your date of birth?
+[0:31] PATIENT (bot): Sure, it's Anthony Reed, and my date of birth is March 12th, 1985.
+[0:37] AGENT (PGAI): Just to confirm, I have your name as Anthony Reed and your date of birth as March 12, 1985. Is that correct? If so, could you please spell your first and last name for me?
+[0:51] PATIENT (bot): Yeah, that's right. It's A-N-T-H-O-N-Y for the first name and R-E-E-D for the last name.
+[1:00] AGENT (PGAI): Would you like me to look up your record using the phone number you have on file with us? If so, please tell me that number. If you're not sure I can confirm your name and date of birth again, which would you prefer?
+[1:15] PATIENT (bot): I can give you my number. It's 555-239-7712.
+[1:22] AGENT (PGAI): I have your phone number as 555-239-7712 and your date of birth as March 12, 1985. Is that correct?
+[1:36] PATIENT (bot): Yeah, that's correct.
+[1:39] AGENT (PGAI): I can't proceed further right now, but I can make sure our clinic support team follows up with you. Would you like me to connect you to our patient support team?
+[1:50] PATIENT (bot): Um, actually, I was hoping to figure out what I should do next. Do I need to book an appointment, or is there something else you'd recommend?
+[2:00] AGENT (PGAI): I'm not able to give medical advice, but I can connect you with our clinic support team who can help you decide what to do next. Would you like to speak with someone now?
+[2:10] PATIENT (bot): Yeah, that sounds good. Please go ahead and connect me. Thank you.
+[2:15] AGENT (PGAI): Connecting you to a representative. Please wait. Hello, you've reached the Pretty Good AI test line. Goodbye.
+[2:26] PATIENT (bot): Okay, thank you. Goodbye

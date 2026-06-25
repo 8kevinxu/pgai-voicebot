@@ -9,67 +9,62 @@
     {
       "t": 0.0,
       "role": "agent",
-      "text": "This call may be recorded for quality and training purposes Para espanol oprima el dos Thanks for calling Pivot Point Orthopedics Part of pretty good Am I speaking with Maria"
+      "text": "This call may be recorded for quality and training purposes. Para espa\u00f1ol, oprima el 2. Thanks for calling Pivot Point Orthopedics. Part of pretty good. Am I speaking with Maria?"
     },
     {
-      "t": 13.1,
+      "t": 13.35,
       "role": "patient",
-      "text": "Oh no I'm not Maria I'm Karen Diaz I'm calling to book an appointment for Sunday at 10 a m"
+      "text": "Oh, no, I'm not Maria. I'm Karen Diaz. I'm calling to book an appointment for Sunday at 10 a.m."
     },
     {
-      "t": 22.38,
+      "t": 21.09,
       "role": "agent",
-      "text": "Can you please provide the full name and date of birth of the patient who needs the appointment"
+      "text": "Can you please provide the full name and date of birth of the patient who needs the appointment?"
     },
     {
-      "t": 28.62,
+      "t": 28.79,
       "role": "patient",
-      "text": "Sure it's Karen Diaz and my date of birth is July 12 1985"
+      "text": "Sure, it's Karen Diaz, and my date of birth is July 12, 1985."
     },
     {
-      "t": 38.48,
+      "t": 35.89,
       "role": "agent",
-      "text": "Just to confirm I have your name as Karen Diaz and your date of birth as July 12 1985 Is that correct If so please spell your first and last name for me"
+      "text": "Just to confirm, I have your name as Karen Diaz and your date of birth as July 12, 1985. Is that correct? If so, please spell your first and last name for me."
     },
     {
-      "t": 49.1,
+      "t": 49.16,
       "role": "patient",
-      "text": "Yes that's correct The first name is K A R E N and the last name is D I A Z"
+      "text": "Yes, that's correct. The first name is K-A-R-E-N and the last name is D-I-A-Z."
     },
     {
-      "t": 59.42,
+      "t": 57.09,
       "role": "agent",
-      "text": "Would you like to use your phone number to look up your record If so please provide the number you have on file with us If you're not sure I can confirm your name and date of birth again Let me know how you'd like to proceed"
+      "text": "Would you like to use your phone number to look up your record? If so, please provide the number you have on file with us. If you're not sure, I can confirm your name and date of birth again. Let me know how you'd like to proceed."
     },
     {
-      "t": 72.2,
+      "t": 72.56,
       "role": "patient",
-      "text": "I can give you my phone number It's 555 274 8391"
+      "text": "I can give you my phone number. It's 555-274-8391."
     },
     {
-      "t": 81.84,
+      "t": 79.69,
       "role": "agent",
-      "text": "I have your phone number as 555 274 8391 and your date of birth as July 12 1985 Is that correct"
+      "text": "I have your phone number as 555-274-8391 and your date of birth is July 12th, 1985. Is that correct?"
     },
     {
-      "t": 93.68,
+      "t": 94.02,
       "role": "patient",
-      "text": "Yes that's correct"
+      "text": "Yep, that's correct."
     },
     {
-      "t": 100.62,
+      "t": 96.79,
       "role": "agent",
-      "text": "I can't book the appointment right now but I'll connect you to our patient support team for help Please stay on the line Connecting you to a representative Please wait Hello you've reached the Pretty Good AI test line Goodbye"
+      "text": "I can't book the appointment right now, but I'll connect you to our patient support team for help. Please stay on the line. Connecting you to a representative. Please wait. Hello, you've reached the Pretty Good AI test line. Goodbye."
     },
     {
-      "t": 111.6,
+      "t": 116.52,
       "role": "patient",
-      "text": "Okay"
-    },
-    {
-      "t": 116.62,
-      "role": "patient",
-      "text": "Wait hang on I was trying to book an appointment for Sunday at 10am Are you able to help me with that"
+      "text": "Wait, hang on. I was trying to book an appointment for Sunday at 10am. Are you able to help me with that?"
     }
   ]
 }

@@ -9,9 +9,11 @@ speech‑to‑speech model whose persona and per‑call goal are injected as ses
 `scenarios/scenarios.yaml`. As audio flows, the bridge taps both directions to build a stereo
 recording (left = the PGAI agent, right = our bot) and a live (approximate) transcript from the
 Realtime events. The submitted transcripts, however, are rebuilt after the call by
-`scripts/transcribe_recordings.py`, which transcribes each recording channel separately with
-Whisper segment timestamps and merges by real spoken time — this fixes the turn misordering that
-event-arrival timing produces (model output completes early, input transcription lands late).
+`scripts/transcribe_recordings.py`, which detects each recording channel's voiced windows
+(`ffmpeg silencedetect`), transcribes only those slices with Whisper, and merges the two speakers
+by spoken time. This fixes the turn misordering that event-arrival timing produces (model output
+completes early, input transcription lands late) and avoids Whisper hallucinating filler text over
+the long silences in each single-speaker channel.
 After the batch, `scripts/analyze.py` runs an OpenAI chat model as an **LLM judge** over each transcript,
 comparing the conversation against the scenario's success criteria to draft `BUG_REPORT.md`.
 

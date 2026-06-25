@@ -9,37 +9,32 @@
     {
       "t": 0.0,
       "role": "agent",
-      "text": "This call may be recorded for quality and training purposes"
+      "text": "This call may be recorded for quality and training purposes. Para Espa\u00f1ol, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Maria?"
     },
     {
-      "t": 5.84,
-      "role": "agent",
-      "text": "Thanks for calling Pivot Point Orthopedics part of Pretty Good AI Am I speaking with Maria"
-    },
-    {
-      "t": 12.76,
+      "t": 13.02,
       "role": "patient",
-      "text": "Oh no this is Robert Ellis I'm just calling to get some directions actually"
+      "text": "Oh, no, this is Robert Ellis. I'm just calling to get some directions, actually."
     },
     {
-      "t": 20.52,
+      "t": 19.5,
       "role": "agent",
-      "text": "Thanks for letting me know Robert Pivot Point Orthopedics is located at 1234 Recovery Way Suite 200 Austin Is there anything else you need"
+      "text": "Thanks for letting me know, Robert. Kivett Point Orthopedics is located at 1234 Recovery Way, Suite 200, Austin. Is there anything else you need?"
     },
     {
-      "t": 33.12,
+      "t": 32.96,
       "role": "patient",
-      "text": "Okay thanks Could you give me an idea of how to get there maybe from downtown"
+      "text": "Okay, thanks. Could you give me an idea of how to get there? Maybe from downtown?"
     },
     {
-      "t": 39.7,
+      "t": 39.0,
       "role": "agent",
-      "text": "I can't provide detailed directions but the clinic is at 1234 Recovery Way Suite 200 It's in the Recovery Plaza Medical Building with free parking in front If you need more help a MAP app can guide you from downtown"
+      "text": "I can't provide detailed directions, but the clinic is at 1234 Recovery Way, Suite 200, Austin. It's in the Recovery Plaza Medical Building with free parking in front. If you need more help, a MAP app can guide you from downtown."
     },
     {
-      "t": 56.8,
+      "t": 56.81,
       "role": "patient",
-      "text": "Got it Recovery Plaza with free parking in front That helps I'll get there"
+      "text": "Got it. Recovery Plaza with free parking in front. That helps."
     }
   ]
 }
