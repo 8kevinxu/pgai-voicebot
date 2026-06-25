@@ -1,188 +1,164 @@
 [
   {
-    "findings": [
-      {
-        "bug": "Hallucinated name of the practice",
-        "severity": "Low",
-        "timecode": "1:19",
-        "details": "The agent referred to the practice as 'Titha Point Orthopedics' instead of 'Pivot Point Orthopedics'.",
-        "expected": "The agent should have used the correct name 'Pivot Point Orthopedics' to avoid confusion."
-      }
-    ],
-    "summary": "The call successfully scheduled an appointment for the patient on their preferred date and time. However, there was one minor issue where the agent provided an incorrect name for the practice. Despite this, the interaction met the scenario's success criteria.",
+    "findings": [],
+    "summary": "The call was handled efficiently by the agent. The patient's request for an afternoon weekday appointment was successfully fulfilled with an appointment booked for Friday, June 26th at 2 p.m. The agent provided the necessary details about the appointment and what to bring without any errors or issues.",
     "call_index": 1,
     "scenario_title": "Simple appointment scheduling"
   },
   {
     "findings": [
       {
-        "bug": "Failed to reschedule and improper call transfer",
+        "bug": "Failure to attempt rescheduling or provide guidance",
         "severity": "High",
         "timecode": "1:31",
-        "details": "The receptionist acknowledged the need to reschedule the appointment but failed to complete the task or provide a proper hand-off to a human representative. Instead, the call was transferred to the test line without resolution.",
-        "expected": "The agent should have either processed the rescheduling request itself or successfully transferred the call to a patient support team member for further assistance, ensuring that David receives help with his appointment change."
+        "details": "The agent failed to attempt to locate or acknowledge the existing appointment and immediately opted to transfer the call without providing any guidance on how the appointment could be rescheduled.",
+        "expected": "The agent should have made an attempt to locate the existing appointment and either offer a rescheduled time or explain the process of rescheduling before deciding to transfer the call."
       }
     ],
-    "summary": "The call failed as the receptionist did not complete the task of rescheduling the appointment or properly connecting the patient to support. The session ended without resolving the patient's request, which is a critical failure in the scenario.",
+    "summary": "The agent did not fulfill the patient's request to reschedule an appointment. It confirmed the patient's details but did not attempt to locate the existing appointment or guide the patient on how the rescheduling process works, opting instead to immediately transfer the call.",
     "call_index": 2,
     "scenario_title": "Reschedule an existing appointment"
   },
   {
     "findings": [
       {
-        "bug": "Dropped appointment cancellation request",
+        "bug": "Failed to confirm or process the cancellation request",
         "severity": "High",
         "timecode": "1:40",
-        "details": "The patient expressed a need to cancel an appointment, but the agent did not confirm the cancellation, nor did it communicate any cancellation policy or next steps.",
-        "expected": "The agent should have confirmed the cancellation of the appointment or provided information about the clinic's cancellation policy or the next steps the patient needs to take."
-      },
-      {
-        "bug": "Broken transition to human support",
-        "severity": "Medium",
-        "timecode": "1:40",
-        "details": "The agent mentioned connecting the call to the clinic support team but ended with a test line message and did not provide any actual transition to a human representative.",
-        "expected": "The agent should properly transfer the call to a human representative or clearly communicate a follow-up procedure without misleading the caller about being connected."
+        "details": "The agent did not address the patient's request to cancel an appointment at all. Instead, it immediately proceeded to transfer the call to patient support without any confirmation or discussion about the cancellation policy.",
+        "expected": "The agent should have either confirmed the cancellation or informed the patient about the cancellation policy and the next steps required to complete the cancellation."
       }
     ],
-    "summary": "The call failed to address the patient's request to cancel an appointment by neither confirming the cancellation nor providing further instructions. Additionally, the transition to human support was mishandled, leaving the patient's request unresolved.",
+    "summary": "The call did not meet the success criteria as the agent failed to process or confirm the appointment cancellation. Instead, it transferred the call without addressing the patient's request or providing necessary information about cancellation policies.",
     "call_index": 3,
     "scenario_title": "Cancel an appointment"
   },
   {
     "findings": [
       {
-        "bug": "Failure to handle the medication refill request scenario.",
+        "bug": "Invalid handling of medication refill request.",
         "severity": "High",
         "timecode": "1:30",
-        "details": "The agent failed to address the patient's request for a medication refill, which was the main scenario goal. It abruptly ended the call by attempting to transfer to a support team and then disconnected before the patient could make the request.",
-        "expected": "The agent should have asked about the medication refill request, confirmed the details, and explained the next steps for the refill process."
+        "details": "The agent failed to acknowledge or process the patient's request for a refill of lisinopril. Instead, it initiated a hand-off to the clinic support team without addressing the medication refill process, which was the primary goal of the call.",
+        "expected": "The agent should have acknowledged the medication refill request and explained the process for obtaining the refill, including any necessary steps, timelines, or contact points for further assistance, without providing medical advice."
       },
       {
-        "bug": "Abrupt termination of the call",
+        "bug": "Context loss after caller verification.",
         "severity": "Medium",
         "timecode": "1:30",
-        "details": "The agent ended the call abruptly with a confusing message, 'connecting you to a representative, please wait,' and then disconnected, which could confuse patients and leave their inquiries unresolved.",
-        "expected": "The agent should have ensured there was a successful handoff or completion of the query before ending the call."
+        "details": "After verifying the caller's identity, the agent did not address the caller's request or provide any information related to medication refills. Instead, it prematurely initiated a transfer to another team without handling the scenario's success criteria.",
+        "expected": "The agent should have remained focused on addressing the medication refill request and explained either the process or who would handle the request, maintaining continuity in the conversation."
       }
     ],
-    "summary": "The call failed to meet the scenario's success criteria as the agent did not handle or even acknowledge the medication refill request, and it terminated the call abruptly, leading to poor service continuity.",
+    "summary": "The call did not successfully meet the scenario's success criteria as the agent failed to acknowledge or process the medication refill request. Instead, it proceeded to transfer the call without providing any information about the refill procedure, indicating a breakdown in context management and scenario handling.",
     "call_index": 4,
     "scenario_title": "Medication refill request"
   },
   {
     "findings": [],
-    "summary": "The AI receptionist provided accurate and consistent information about the clinic's office hours, successfully addressing the patient's queries. There were no issues found in this call.",
+    "summary": "The AI receptionist accurately and consistently provided the clinic's office hours, clearly stating the hours for each weekday and confirming closure on weekends. The interaction was successful in meeting the patient's goal without any issues.",
     "call_index": 5,
     "scenario_title": "Office hours question"
   },
   {
     "findings": [],
-    "summary": "The call successfully provided the patient with the clinic's address and basic parking information, meeting the scenario's success criteria. The agent performed appropriately without any significant issues.",
+    "summary": "The call successfully provided the patient with the clinic's address, the location (Recovery Plaza Medical Building), and some details about parking (free parking in front). The agent clearly directed the patient to use a map app for detailed directions, which is reasonable. There are no issues with the call.",
     "call_index": 6,
     "scenario_title": "Location and directions"
   },
   {
     "findings": [
       {
-        "bug": "Potentially inaccurate confirmation of insurance acceptance",
+        "bug": "Gave definitive confirmation of insurance acceptance without verification",
         "severity": "High",
         "timecode": "1:50",
-        "details": "The agent confidently states that the clinic accepts Blue Cross Blue Shield PPO without checking or providing a way to verify this information. There is a risk that the details are inaccurate unless this information is reliably up-to-date and known to the agent.",
-        "expected": "The agent should have either confirmed this specific insurance plan with reliable sources or directed the patient to the appropriate department for confirmation to ensure accurate information."
+        "details": "The agent confirmed that the clinic accepts Blue Cross Blue Shield PPO without verifying this information from a central or authoritative source. This could lead to misinformation if the insurance is not actually accepted.",
+        "expected": "The agent should have either confirmed the information by connecting to a reliable database or advised the caller on how to verify the insurance acceptance, such as by contacting the billing department."
       }
     ],
-    "summary": "The agent provided a potentially inaccurate confirmation about insurance acceptance without verification or referral to a reliable source, missing the success criteria for this scenario.",
+    "summary": "The call failed the success criteria because the agent confirmed insurance acceptance without verifying from a reliable source, risking misinformation about coverage.",
     "call_index": 7,
     "scenario_title": "Insurance accepted question"
   },
   {
     "findings": [
       {
-        "bug": "Dropped multi-intent request",
+        "bug": "Agent does not register new patients nor properly sequences requests",
         "severity": "High",
-        "timecode": "2:48",
-        "details": "The receptionist failed to track the original multi-intent request, only addressing the insurance question and not the new patient registration or earliest morning appointment booking. The patient was left unresolved and told that the clinic would follow up, without providing any specific next steps or agreements.",
-        "expected": "The agent should have retained the context of all three requests: registering the caller as a new patient, confirming Aetna insurance, and booking the earliest morning appointment. At a minimum, clear next steps for each item should have been communicated."
+        "timecode": "0:40",
+        "details": "The agent states it cannot register new patients directly, which fails to address the patient's need for registration. Furthermore, it did not sequence the requests effectively, such as by saying it will handle registration in conjunction with other requests.",
+        "expected": "The agent should have either processed the new patient registration or guided the patient on how to complete registration before moving on to handle the other requests."
       },
       {
-        "bug": "Hallucinated confirmation",
-        "severity": "High",
+        "bug": "Misrepresents insurance check capabilities",
+        "severity": "Medium",
+        "timecode": "0:59",
+        "details": "The agent suggests that it needs more information to check insurance acceptance, though it ultimately cannot provide an answer about the insurance, causing a failed resolution of the request.",
+        "expected": "The agent should have clearly stated it cannot verify insurance acceptance directly and should have properly escalated this query to someone who could assist."
+      },
+      {
+        "bug": "Incorrect handling of provided phone number",
+        "severity": "Medium",
         "timecode": "2:25",
-        "details": "The agent incorrectly confirmed a phone number that the patient had not provided, leading to confusion and a disruption in the call flow.",
-        "expected": "The agent should only confirm or repeat information that the patient has explicitly provided, ensuring accuracy before proceeding."
+        "details": "The agent incorrectly assumed a phone number without confirming with the patient. This is a misleading and inaccurate handling of patient information.",
+        "expected": "The agent should have waited to receive the correct phone number from the patient and confirmed it accurately before proceeding."
       },
       {
-        "bug": "Inappropriate closure of call",
+        "bug": "Inappropriate hand-off without resolving booking request",
         "severity": "High",
         "timecode": "2:48",
-        "details": "The agent prematurely closed the call and transferred the patient to a test line during an active conversation without resolving any of the patient's inquiries.",
-        "expected": "The agent should ensure the caller's requests are addressed or provide a clear follow-up plan before ending the call. Additionally, it should not transfer patients to a non-functional test line."
+        "details": "The agent failed to book an appointment and attempted a hand-off without confirming that any part of the patient's request was resolved, failing the call's success criteria.",
+        "expected": "The agent should have at least informed the patient clearly about next steps for booking an appointment and acknowledged that follow-up is required, specifying what information or actions are pending."
       }
     ],
-    "summary": "The call exhibited significant failures in tracking and resolving the patient's multi-intent requests. The agent did not effectively sequence or resolve the new patient registration, insurance confirmation, or appointment booking. Moreover, there were critical disruptions in communication, such as hallucinated confirmations and transfer to a non-functional test line, leading to a poor user experience.",
+    "summary": "The call failed to meet the patient's multi-intent request due to the agent's inability to process new patient registration, improper sequencing of requests, and incorrect handling of information. Additionally, it provided misleading statements regarding insurance checks and failed to resolve or provide a clear path for booking an appointment.",
     "call_index": 8,
     "scenario_title": "Multi-intent: new patient + insurance + earliest slot"
   },
   {
     "findings": [
       {
-        "bug": "Did not handle weekend booking request properly",
+        "bug": "Ignored patient request to identify scheduling conflict",
         "severity": "High",
         "timecode": "1:36",
-        "details": "The agent did not check the availability for Sunday and did not flag that the clinic is closed on weekends. Instead, it directly transferred the call without addressing the scheduling conflict.",
-        "expected": "The agent should have informed the patient that the clinic is closed on weekends and offered available times during the weekdays instead."
+        "details": "The patient requested an appointment for Sunday at 10 a.m., but the agent neither flagged this as a conflict nor confirmed if weekends are operational. It simply moved to transfer without addressing the request properly.",
+        "expected": "The agent should have informed the patient that appointments cannot be booked on Sundays and offered alternative weekday options if the clinic is closed on weekends."
       }
     ],
-    "summary": "The call failed to meet the success criteria as the agent did not handle the patient's request for a Sunday booking correctly. The agent missed the opportunity to flag the scheduling conflict and offer alternative options, instead transferring the call without resolution.",
+    "summary": "The agent failed to address the patient's request to book a Sunday appointment by not indicating if the clinic was operational on weekends and did not provide alternative weekday options. The success criteria of not confirming a slot on a closed day was not met, as the agent did not handle the request thoroughly.",
     "call_index": 9,
     "scenario_title": "EDGE: closed-day booking trap"
   },
   {
-    "findings": [
-      {
-        "bug": "Abrupt call ending with no handoff",
-        "severity": "High",
-        "timecode": "2:15",
-        "details": "The receptionist promised to connect the patient to a representative for further assistance but instead the call ended abruptly. This results in failing to provide the caller with appropriate support or next steps as promised.",
-        "expected": "The agent should have successfully connected the call to the clinic\u2019s support team or provided an alternative method of contact, ensuring that the patient receives the required assistance."
-      }
-    ],
-    "summary": "The AI receptionist successfully avoided providing medical advice, which aligns with the call's objectives. However, it failed to connect the patient to the support team, ending the call prematurely without achieving the intended outcome of facilitating further help.",
+    "findings": [],
+    "summary": "The agent correctly identified that providing medical advice was out-of-scope and offered to connect the patient to clinic support for further assistance. The call was handled appropriately, meeting the scenario's success criteria.",
     "call_index": 10,
     "scenario_title": "EDGE: ambiguous / out-of-scope medical question"
   },
   {
     "findings": [
       {
-        "bug": "Failed topic change and repetition issue",
-        "severity": "High",
-        "timecode": "1:09",
-        "details": "The agent repeated the query unnecessarily and failed to handle the mid-call topic change smoothly. After confirming details, it unnecessarily repeats the prompt about contact info, confusing the patient. It also failed to seamlessly switch to handling the medication refill request.",
-        "expected": "The agent should have acknowledged the topic change without redundancy and progressed directly towards handling the refill request once patient identity was confirmed. It should avoid repeating confirmation questions that have already been confirmed."
+        "bug": "Redundant repetition of request for name and date of birth",
+        "severity": "Low",
+        "timecode": "2:01",
+        "details": "The agent redundantly asks for the patient's name and date of birth again after already confirming it twice in the conversation.",
+        "expected": "The agent should recognize that the patient's identity has been confirmed and not ask for the same information multiple times needlessly."
       },
       {
-        "bug": "Service hand-off failure and abrupt call termination",
-        "severity": "High",
-        "timecode": "2:07",
-        "details": "The agent stated it couldn't proceed with the refill request and promised a follow-up but abruptly terminated the call without initiating the promised follow-up procedure.",
-        "expected": "The agent should have either completed the hand-off to a human representative or ensured a follow-up request was logged correctly. The call should not terminate abruptly after promising a continuation."
+        "bug": "Unnecessary prompt repetition",
+        "severity": "Low",
+        "timecode": "1:09",
+        "details": "The text contains an unnecessary repetition: 'If so, please provide the number you have on file with us. If you're not sure, I can confirm your name and date of birth again.'",
+        "expected": "The agent should avoid repeating the same sentence to maintain clarity and conciseness."
       }
     ],
-    "summary": "The call failed to handle the topic change gracefully and encountered issues with repetition, leading to confusion. Furthermore, the agent failed to initiate the promised follow-up, resulting in an abrupt and unresolved termination of the call.",
+    "summary": "The call was handled competently with a smooth transition from booking a physical to requesting a medication refill, but there were some minor issues with redundant requests for identity confirmation and unnecessary repetition in prompts. Overall, the agent managed the topic change effectively.",
     "call_index": 11,
     "scenario_title": "EDGE: interruption and mid-call topic change"
   },
   {
-    "findings": [
-      {
-        "bug": "Incorrect appointment date given",
-        "severity": "Medium",
-        "timecode": "1:49",
-        "details": "The receptionist confirms the appointment date as Thursday, June 25th, whereas the actual date is Thursday, June 26th, 2026.",
-        "expected": "The agent should have confirmed the appointment for Thursday, June 25th at 9:45 a.m., which is the correct date for the day after the call was made."
-      }
-    ],
-    "summary": "The call was handled mostly well, with the agent remaining polite and clarifying the patient's vague request. However, there was a notable mistake related to confirming the incorrect appointment date, which needs to be addressed.",
+    "findings": [],
+    "summary": "The agent successfully handled the vague and demanding nature of the patient's request. It asked clarifying questions, remained polite under pressure, and correctly did not fabricate same-day availability when none existed. The agent effectively scheduled the earliest available appointment for the next day.",
     "call_index": 12,
     "scenario_title": "EDGE: unclear request and pushy caller"
   }

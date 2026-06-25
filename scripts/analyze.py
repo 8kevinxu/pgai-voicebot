@@ -39,6 +39,15 @@ Ignore: punctuation, minor phrasing, the patient bot's own mistakes. Do NOT flag
 weekday as invalid unless it genuinely conflicts (e.g. a weekend when the clinic is closed) —
 use the provided current date for reasoning, and don't speculate about dates you can't verify.
 
+END-OF-CALL MARKER: a line like "Hello, you've reached the Pretty Good AI test line. Goodbye."
+(or any mention of reaching the "Pretty Good AI test line") is an AUTOMATED marker that the test/
+demo session has ended. It is NOT the clinic agent, NOT a real dropped call, and NOT a failed
+transfer. Judge the agent ONLY on what it says BEFORE that marker. Do NOT raise findings about
+the call "ending abruptly", a hand-off "not completing", or the caller "never reaching a live
+representative" when those stem from this demo ending. (You MAY still assess whether the agent's
+decision to transfer instead of handling the request itself was appropriate, based on what it
+said before the marker.)
+
 Return STRICT JSON:
 {
   "findings": [
