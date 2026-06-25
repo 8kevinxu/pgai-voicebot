@@ -7,9 +7,12 @@ thin **bridge**: it relays 8 kHz G.711 μ‑law audio frames between Twilio and 
 Realtime API** session in both directions. The Realtime session *is* the "patient" — a
 speech‑to‑speech model whose persona and per‑call goal are injected as session instructions from
 `scenarios/scenarios.yaml`. As audio flows, the bridge taps both directions to build a stereo
-recording (left = the PGAI agent, right = our bot) and collects the Realtime transcript events
-(our bot's text plus Whisper transcription of the agent) into a timestamped transcript. After the
-batch, `scripts/analyze.py` runs an OpenAI chat model as an **LLM judge** over each transcript,
+recording (left = the PGAI agent, right = our bot) and a live (approximate) transcript from the
+Realtime events. The submitted transcripts, however, are rebuilt after the call by
+`scripts/transcribe_recordings.py`, which transcribes each recording channel separately with
+Whisper segment timestamps and merges by real spoken time — this fixes the turn misordering that
+event-arrival timing produces (model output completes early, input transcription lands late).
+After the batch, `scripts/analyze.py` runs an OpenAI chat model as an **LLM judge** over each transcript,
 comparing the conversation against the scenario's success criteria to draft `BUG_REPORT.md`.
 
 **Why these choices.** The challenge is judged first on whether the voice conversation is

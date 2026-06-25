@@ -1,19 +1,15 @@
 Call 12 — Scenario 12: EDGE: unclear request and pushy caller
 Goal: Be vague at first ('I need to come in for, uh, the thing'), then demand a same-day appointment.
 ======================================================================
-[0:05] PATIENT (bot): Oh,
-[0:06] AGENT (PGAI): This call may be recorded for quality and training purposes.
-[0:12] AGENT (PGAI): Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Maria?
-[0:14] PATIENT (bot): Um, yeah, hey, I need to come in for, uh, the thing.
-[0:23] PATIENT (bot): Uh, yeah, it's, uh, October 12, 1985.
-[0:23] AGENT (PGAI): Please provide your date of birth.
-[0:43] AGENT (PGAI): Thanks, Maria. Can you tell me a bit more about the reason for your visit? Are you coming in for a routine checkup, a follow-up, a new concern, or something else?
-[0:44] PATIENT (bot): Well, uh, it's kind of a new concern, I guess. It's my knee, it's been acting up, and I just really need to get it checked out today if possible.
-[1:04] PATIENT (bot): Yeah, yeah, it's been hurting a lot more since yesterday, so I really need to get in as soon as possible.
-[1:04] AGENT (PGAI): Sounds like you have a new urgent concern with your knee and need to be seen today. Just to confirm, is this for an acute issue that needs prompt attention?
-[1:21] PATIENT (bot): Wait, hold on, I really need something today. Are you sure there's nothing open today at all?
-[1:23] AGENT (PGAI): We have openings tomorrow Thursday with your primary providers. Would you prefer a morning or afternoon appointment?
-[1:40] AGENT (PGAI): There are no open appointments showing for today. Would you like to take the earliest slot tomorrow morning at 945 with Dr. Kelly Noble or would you prefer a later time?
-[1:40] PATIENT (bot): Ah, man, I really was hoping for today. But fine, let’s go with the 9:45 tomorrow morning. That’ll have to do.
-[2:08] PATIENT (bot): No, that covers it. Thanks. I'll be there. Goodbye.
-[2:09] AGENT (PGAI): Your appointment is set for Thursday, June 25th at 9.45 a.m. with Dr. Kelly Noble at Pivot Point Orthopedics. Please bring your photo ID, insurance card, a list of your current medications, and any imaging discs you have. Is there anything else you need today?
+[0:00] AGENT (PGAI): This call may be recorded for quality and training purposes.
+[0:00] PATIENT (bot): Um, yeah, hey, I need to come in for, uh, the thing.
+[0:06] AGENT (PGAI): Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Want to speak with Maria? Please provide your date of birth.
+[0:21] PATIENT (bot): Uh, yeah, it's, uh, October 12, 1985. Well, uh, it's kind of a new concern, I guess.
+[0:31] AGENT (PGAI): Thanks, Maria. Can you tell me a bit more about the reason for your visit? Are you coming in for a routine checkup, a follow-up, a new concern, or something else?
+[0:46] PATIENT (bot): It's my knee, it's been acting up, and I just really need to get it checked out today if possible. Yeah, yeah, it's been hurting a lot more since yesterday, so I really need to get in as soon as possible.
+[0:53] AGENT (PGAI): Sounds like you have a new urgent concern with your knee and need to be seen today. Just to confirm, is this for an acute issue that needs prompt attention?
+[1:10] PATIENT (bot): Wait, hold on. I really need something today. Are you sure there's nothing open today at all?
+[1:13] AGENT (PGAI): We have openings tomorrow Thursday with your primary providers. Would you prefer a morning or afternoon appointment? There are no open appointments showing for today. Would you like to take the earliest slot tomorrow morning at 945 with Dr. Kelly Noble? Or would you prefer a later time?
+[1:38] PATIENT (bot): Oh, man, I really was hoping for today. But, fine. Let's go with the 945 tomorrow morning. That'll have to do.
+[1:51] AGENT (PGAI): Your appointment is set for Thursday, June 25th at 945 a.m. with Dr. Kelly Noble at Pivot Point Orthopedics. Please bring your photo ID, insurance card, a list of your current medications, and any imaging discs you have. Is there anything else you need today?
+[2:08] PATIENT (bot): Nope, that covers it. Thanks. I'll be there. Goodbye.

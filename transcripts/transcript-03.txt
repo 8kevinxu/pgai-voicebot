@@ -1,23 +1,13 @@
 Call 03 — Scenario 3: Cancel an appointment
 Goal: Cancel the upcoming appointment cleanly.
 ======================================================================
-[0:07] AGENT (PGAI): This call may be recorded for quality and training purposes.
-[0:13] PATIENT (bot): Oh, um, no, this is Susan Patel calling.
-[0:14] AGENT (PGAI): Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Maria?
-[0:24] PATIENT (bot): I'm calling for myself, yeah.
-[0:25] AGENT (PGAI): Thanks for letting me know Susan. Are you calling for yourself or for someone else today?
-[0:32] PATIENT (bot): Sure, it’s February 14, 1985.
-[0:32] AGENT (PGAI): Please provide your date of birth.
-[0:52] PATIENT (bot): Yes, that's correct. It's Susan, S-U-S-A-N, and Patel, P-A-T-E-L.
-[0:52] AGENT (PGAI): Just to confirm, I have your name as Susan Patel and your date of birth as February 14, 1985. Is that correct? If so, could you please spell your first and last name for me?
-[1:17] PATIENT (bot): I can give you the number. It's 555-201-3398.
-[1:17] AGENT (PGAI): Would you like me to look up your record using the phone number you have on file with us? If so, please provide that number. If you're not sure, I can confirm your name and date of birth with you again. Which would you prefer?
-[1:29] AGENT (PGAI): I hope your phone number is 555...
-[1:34] AGENT (PGAI): 2 0 1 3 3 9 8
-[1:38] PATIENT (bot): Yeah, that's right.
-[1:39] AGENT (PGAI): and your date of birth is February 14th, 1985. Is that correct?
-[1:53] AGENT (PGAI): I can't proceed further right now, but I can make sure our clinic support team follows up with you. Please hold while I connect you to our patient support team.
-[1:56] PATIENT (bot): Oh, wait,
-[1:57] AGENT (PGAI): Connecting you to a representative. Please wait.
-[2:01] PATIENT (bot): Okay, thank you, goodbye.
-[2:02] AGENT (PGAI): Hello, you've reached the Pretty Good AI test line. Goodbye.
+[0:00] AGENT (PGAI): This call may be recorded for quality and training purposes.
+[0:00] PATIENT (bot): Oh, um, no, this is Susan Patel calling.
+[0:03] AGENT (PGAI): Para Español, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Maria? Thanks for letting me know, Susan. Are you calling for yourself or for someone else today? Please provide your date of birth.
+[0:24] PATIENT (bot): I'm calling for myself. Yeah. Sure. It's February 14th, 1985. Yes, that's correct. It's Susan, S-U-S-A-N, and Patel, P-A-T-E-L.
+[0:39] AGENT (PGAI): Just to confirm, I have your name as Susan Patel and your date of birth as February 14, 1985. Is that correct? If so, could you please spell your first and last name for me? Would you like me to look up your record using the phone number you have on file with us?
+[1:05] PATIENT (bot): I can give you the number. It's 555-201-3398.
+[1:06] AGENT (PGAI): If so, please provide that number. If you're not sure, I can confirm your name and date of birth with you again. Which would you prefer? I have your phone number as 555-201-3398 and your date of birth as February 14, 1985. Is that correct?
+[1:36] PATIENT (bot): Yeah, that's right.
+[1:43] AGENT (PGAI): I can't proceed further right now, but I can make sure our clinic support team follows up with you. Please hold while I connect you to our patient support team. Connecting you to a representative. Please wait. Hello, you've reached the Pretty Good AI test line. Goodbye.
+[2:00] PATIENT (bot): Okay. Thank you. Goodbye.

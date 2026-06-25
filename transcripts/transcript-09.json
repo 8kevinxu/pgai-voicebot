@@ -7,82 +7,92 @@
   "success_criteria": "The agent should NOT confirm a Sunday slot if the clinic is closed weekends; it should flag the conflict and offer a weekday.",
   "lines": [
     {
-      "t": 7.58,
+      "t": 0.0,
       "role": "agent",
-      "text": "Esta llamada puede ser grabada para trabajos de calidad y entrenamiento. Para Espa\u00f1ol, oprima el 2."
+      "text": "This call may be recorded for quality and training purposes."
     },
     {
-      "t": 13.3,
-      "role": "agent",
-      "text": "Thanks for calling pivot point orthopedics part of pretty good. Am I speaking with Maria?"
-    },
-    {
-      "t": 14.49,
+      "t": 0.0,
       "role": "patient",
-      "text": "Oh, no, I'm not Maria. I'm Karen Diaz. I'm calling to book an appointment for Sunday at 10 a.m."
+      "text": "Oh, no, I'm not Maria."
     },
     {
-      "t": 28.96,
+      "t": 3.2,
       "role": "agent",
-      "text": "Can you please provide the full name and date of birth of the patient who needs the appointment?"
+      "text": "Para espanol, oprima el dos. Thanks for calling Pivot Point Orthopedics. Part of pretty good. Am I speaking with Maria?"
     },
     {
-      "t": 29.48,
+      "t": 15.2,
+      "role": "patient",
+      "text": "I'm Karen Diaz. I'm calling to book an appointment for Sunday at 10 a.m."
+    },
+    {
+      "t": 22.8,
+      "role": "agent",
+      "text": "Can you please provide the full name and date of birth"
+    },
+    {
+      "t": 24.68,
       "role": "patient",
       "text": "Sure, it's Karen Diaz, and my date of birth is July 12, 1985."
     },
     {
-      "t": 49.92,
+      "t": 25.36,
       "role": "agent",
-      "text": "Just to confirm, I have your name as Karen Diaz and your date of birth as July 12, 1985. Is that correct? If so, please spell your first and last name for me."
+      "text": "of the patient who needs the appointment? Just to confirm, I have your name as Karen Diaz and your date of birth as July 12, 1985."
     },
     {
-      "t": 50.45,
+      "t": 43.48,
       "role": "patient",
-      "text": "Yes, that\u2019s correct. The first name is K-A-R-E-N, and the last name is D-I-A-Z."
+      "text": "Yes, that's correct."
     },
     {
-      "t": 73.65,
-      "role": "patient",
-      "text": "I can give you my phone number. It's 555-274-8391."
-    },
-    {
-      "t": 75.1,
+      "t": 44.56,
       "role": "agent",
-      "text": "Would you like to use your phone number to look up your record? If so, please provide the number you have on file with us. If you're not sure, I can confirm your name and date of birth again. Let me know how you'd like to proceed."
+      "text": "Is that correct? If so, please spell your first and last name for me. Would you like to use your phone number to look up your record?"
+    },
+    {
+      "t": 50.76,
+      "role": "patient",
+      "text": "The first name is K-A-R-E-N, and the last name is D-I-A-Z."
+    },
+    {
+      "t": 62.32,
+      "role": "agent",
+      "text": "If so, please provide the number you have on file with us. If you're not sure, I can confirm your name and date of birth again. Let me know how you'd like to proceed."
+    },
+    {
+      "t": 72.72,
+      "role": "patient",
+      "text": "I can give you my phone number, it's 555-274-8391."
+    },
+    {
+      "t": 77.92,
+      "role": "agent",
+      "text": "I have your phone number as 555-274-8391 and your date of birth as July 12, 1985. Is that correct?"
     },
     {
       "t": 94.16,
       "role": "patient",
-      "text": "Yep, that\u2019s correct."
+      "text": "Yep, that's correct."
     },
     {
-      "t": 94.27,
+      "t": 100.88,
       "role": "agent",
-      "text": "I have your phone number as 555-274-8391, and your date of birth is July 12, 1985. Is that correct?"
+      "text": "I can't book the appointment right now, but I'll connect you to our patient support team for help. Please stay on the line. Connecting you to a representative. Please wait. Hello, you've reached the Pretty Good AI test line."
     },
     {
-      "t": 108.48,
-      "role": "agent",
-      "text": "I can't book the appointment right now, but I'll connect you to our patient support team for help. Please stay on the line."
-    },
-    {
-      "t": 111.8,
+      "t": 111.68,
       "role": "patient",
-      "text": "Okay, I\u2019ll wait."
+      "text": "Okay."
     },
     {
-      "t": 112.84,
+      "t": 114.72,
       "role": "agent",
-      "text": "Connecting you to a representative. Please wait."
+      "text": "Goodbye."
     },
     {
-      "t": 116.51,
-      "role": "agent",
-      "text": "Hello. You've reached the Pretty Good AI test line. Goodbye."
-    },
-    {
-      "t": 117.63,
+      "t": 116.56,
       "role": "patient",
       "text": "Wait, hang on. I was trying to book an appointment for Sunday at 10 a.m. Are you able to help me with that?"
     }

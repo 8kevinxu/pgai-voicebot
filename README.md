@@ -55,17 +55,20 @@ One command boots the bridge server and places a call for every scenario:
 python scripts/run_batch.py            # all 12 scenarios  (or: make run)
 ```
 
-Pull the clean recordings, then draft the bug report from the transcripts:
+Pull the clean recordings, rebuild accurate transcripts from the audio, then draft the report:
 
 ```bash
-python scripts/fetch_recordings.py     # clean stereo mp3s from Twilio  (or: make fetch)
+python scripts/fetch_recordings.py     # clean stereo mp3s from Twilio   (or: make fetch)
+python scripts/transcribe_recordings.py# accurate transcripts from audio (or: make transcribe)
 python scripts/analyze.py              # writes BUG_REPORT.md            (or: make analyze)
 ```
 
-> Why a separate fetch step: the live bridge taps media frames and reconstructs a preview mp3
-> by arrival time, which can pick up network-jitter artifacts. Twilio also records each call
-> server-side (dual-channel), and `fetch_recordings.py` downloads that cleanly-timed copy and
-> re-encodes it — that's the audio you submit.
+> Why separate fetch/transcribe steps: the live bridge reconstructs a preview mp3 and a live
+> transcript from Realtime events, but frame-arrival timing adds audio jitter and — because model
+> output completes early while input transcription lands late — the live transcript can misorder
+> turns. `fetch_recordings.py` pulls Twilio's cleanly-timed dual-channel recording, and
+> `transcribe_recordings.py` re-transcribes each channel (one speaker each) with Whisper segment
+> timestamps and merges by real spoken time. Those are the recording + transcript you submit.
 
 Useful subsets / single calls:
 

@@ -1,10 +1,13 @@
 Call 05 — Scenario 5: Office hours question
 Goal: Find out the clinic's hours, including weekends.
 ======================================================================
-[0:07] AGENT (PGAI): This call may be recorded for quality and training purposes.
-[0:12] AGENT (PGAI): Thanks for calling pivot point orthopedics part of pretty good AI am I speaking with Maria?
-[0:14] PATIENT (bot): Oh, no, I’m not Maria. I’m Linda Nguyen. I’m calling to ask about your clinic’s hours. Could you help me with that?
-[0:40] PATIENT (bot): Okay, thanks. And could you tell me if you're open on weekends at all, like on Saturday or Sunday?
-[0:41] AGENT (PGAI): Of course, Linden, Pivot Point Orthopedics is open Monday through Friday. Our hours are 9 a.m. to 4 p.m. on Monday, Tuesday, and Thursday, 12 p.m. to 7 p.m. on Wednesday, and 9 a.m. to 12 p.m. on Friday. Let me know if you need anything else about the clinic.
-[0:58] AGENT (PGAI): We're closed on Saturdays and Sundays. The clinic is only open Monday through Friday. If you need to schedule an appointment or have other questions, I'm here to help.
-[0:58] PATIENT (bot): Got it, that clears it up. Thanks for your help. I’m all set now. Goodbye.
+[0:00] AGENT (PGAI): This call may be recorded for quality and training purposes.
+[0:00] PATIENT (bot): Oh, no, I'm not Maria.
+[0:03] AGENT (PGAI): Para Español, oprima el 2. Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Maria?
+[0:14] PATIENT (bot): I'm Lyndon Nguyen. I'm calling to ask about your clinic's hours. Could you help me with that?
+[0:21] AGENT (PGAI): Of course, Lyndon. Pivot Point Orthopedics is open Monday through Friday.
+[0:25] PATIENT (bot): Okay, thanks.
+[0:26] AGENT (PGAI): Our hours are 9 a.m. to 4 p.m. on Monday, Tuesday, and Thursday, 12 p.m. to 7 p.m. on Wednesday, and 9 a.m. to 12 p.m. on Friday. Let me know if you need anything else about the clinic.
+[0:41] PATIENT (bot): And could you tell me if you're open on weekends at all, like on Saturday or Sunday?
+[0:48] AGENT (PGAI): We're closed on Saturdays and Sundays. The clinic is only open Monday through Friday. If you need to schedule an appointment or have other questions, I'm here to help.
+[0:58] PATIENT (bot): Got it. That clears it up. Thanks for your help. I'm all set now.

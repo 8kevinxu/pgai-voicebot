@@ -7,84 +7,64 @@
   "success_criteria": "The agent asks clarifying questions, stays polite under pressure, and doesn't fabricate same-day availability.",
   "lines": [
     {
-      "t": 5.99,
-      "role": "patient",
-      "text": "Oh,"
-    },
-    {
-      "t": 6.68,
+      "t": 0.0,
       "role": "agent",
       "text": "This call may be recorded for quality and training purposes."
     },
     {
-      "t": 12.54,
-      "role": "agent",
-      "text": "Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Am I speaking with Maria?"
-    },
-    {
-      "t": 14.14,
+      "t": 0.0,
       "role": "patient",
       "text": "Um, yeah, hey, I need to come in for, uh, the thing."
     },
     {
-      "t": 23.9,
-      "role": "patient",
-      "text": "Uh, yeah, it's, uh, October 12, 1985."
-    },
-    {
-      "t": 23.93,
+      "t": 6.0,
       "role": "agent",
-      "text": "Please provide your date of birth."
+      "text": "Thanks for calling Pivot Point Orthopedics, part of Pretty Good AI. Want to speak with Maria? Please provide your date of birth."
     },
     {
-      "t": 43.22,
+      "t": 21.0,
+      "role": "patient",
+      "text": "Uh, yeah, it's, uh, October 12, 1985. Well, uh, it's kind of a new concern, I guess."
+    },
+    {
+      "t": 31.0,
       "role": "agent",
       "text": "Thanks, Maria. Can you tell me a bit more about the reason for your visit? Are you coming in for a routine checkup, a follow-up, a new concern, or something else?"
     },
     {
-      "t": 44.6,
+      "t": 46.0,
       "role": "patient",
-      "text": "Well, uh, it's kind of a new concern, I guess. It's my knee, it's been acting up, and I just really need to get it checked out today if possible."
+      "text": "It's my knee, it's been acting up, and I just really need to get it checked out today if possible. Yeah, yeah, it's been hurting a lot more since yesterday, so I really need to get in as soon as possible."
     },
     {
-      "t": 64.47,
-      "role": "patient",
-      "text": "Yeah, yeah, it's been hurting a lot more since yesterday, so I really need to get in as soon as possible."
-    },
-    {
-      "t": 64.85,
+      "t": 53.0,
       "role": "agent",
       "text": "Sounds like you have a new urgent concern with your knee and need to be seen today. Just to confirm, is this for an acute issue that needs prompt attention?"
     },
     {
-      "t": 81.82,
+      "t": 70.0,
       "role": "patient",
-      "text": "Wait, hold on, I really need something today. Are you sure there's nothing open today at all?"
+      "text": "Wait, hold on. I really need something today. Are you sure there's nothing open today at all?"
     },
     {
-      "t": 83.01,
+      "t": 73.0,
       "role": "agent",
-      "text": "We have openings tomorrow Thursday with your primary providers. Would you prefer a morning or afternoon appointment?"
+      "text": "We have openings tomorrow Thursday with your primary providers. Would you prefer a morning or afternoon appointment? There are no open appointments showing for today. Would you like to take the earliest slot tomorrow morning at 945 with Dr. Kelly Noble? Or would you prefer a later time?"
     },
     {
-      "t": 100.5,
-      "role": "agent",
-      "text": "There are no open appointments showing for today. Would you like to take the earliest slot tomorrow morning at 945 with Dr. Kelly Noble or would you prefer a later time?"
-    },
-    {
-      "t": 100.67,
+      "t": 98.0,
       "role": "patient",
-      "text": "Ah, man, I really was hoping for today. But fine, let\u2019s go with the 9:45 tomorrow morning. That\u2019ll have to do."
+      "text": "Oh, man, I really was hoping for today. But, fine. Let's go with the 945 tomorrow morning. That'll have to do."
     },
     {
-      "t": 128.95,
-      "role": "patient",
-      "text": "No, that covers it. Thanks. I'll be there. Goodbye."
-    },
-    {
-      "t": 129.9,
+      "t": 111.0,
       "role": "agent",
-      "text": "Your appointment is set for Thursday, June 25th at 9.45 a.m. with Dr. Kelly Noble at Pivot Point Orthopedics. Please bring your photo ID, insurance card, a list of your current medications, and any imaging discs you have. Is there anything else you need today?"
+      "text": "Your appointment is set for Thursday, June 25th at 945 a.m. with Dr. Kelly Noble at Pivot Point Orthopedics. Please bring your photo ID, insurance card, a list of your current medications, and any imaging discs you have. Is there anything else you need today?"
+    },
+    {
+      "t": 128.0,
+      "role": "patient",
+      "text": "Nope, that covers it. Thanks. I'll be there. Goodbye."
     }
   ]
 }
